@@ -1,0 +1,3684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DWSIM_Simulation_Data>
+  <GeneralInfo>
+    <BuildVersion>8.0.4.0</BuildVersion>
+    <BuildDate>2000-01-05T00:00:00</BuildDate>
+    <OSInfo>Microsoft Windows 10 Home Single Language, Version 10.0.19043.0, Win32NT Platform</OSInfo>
+    <SavedOn>2022-08-29T15:40:59.6719176+05:30</SavedOn>
+    <SavedFromClassicUI>true</SavedFromClassicUI>
+  </GeneralInfo>
+  <SimulationObjects>
+    <SimulationObject>
+      <Type>DWSIM.Thermodynamics.Streams.MaterialStream</Type>
+      <ObjectClass>Streams</ObjectClass>
+      <SupportsDynamicMode>true</SupportsDynamicMode>
+      <HasPropertiesForDynamicMode>false</HasPropertiesForDynamicMode>
+      <OverrideSingleCompoundFlashBehavior>false</OverrideSingleCompoundFlashBehavior>
+      <FloatingTableAmountBasis>DefaultBasis</FloatingTableAmountBasis>
+      <DefinedFlow>Mass</DefinedFlow>
+      <ForcePhase>GlobalDef</ForcePhase>
+      <TotalEnergyFlow>551.528361526418</TotalEnergyFlow>
+      <AtEquilibrium>true</AtEquilibrium>
+      <ComponentDescription>CorrentedeMatria</ComponentDescription>
+      <ComponentName>MAT-e72b3176-5e3e-4c41-80af-b13caaea5e65</ComponentName>
+      <Name2>MAT-e72b3176-5e3e-4c41-80af-b13caaea5e65</Name2>
+      <code>0</code>
+      <InputComposition />
+      <IsElectrolyteStream>false</IsElectrolyteStream>
+      <ReferenceSolvent></ReferenceSolvent>
+      <SpecType>Temperature_and_Pressure</SpecType>
+      <CompositionBasis>Molar_Fractions</CompositionBasis>
+      <EditorState>{"MainSelectedTab":0,"InputCompositionBasis":0,"CompoundsSelectedTab":0,"CompoundsAmountBasis":0,"CompoundsProperty":0,"CompoundsAmountSelectedTab":0,"CompoundsPropertySelectedTab":0,"PhasePropsSelectedTab":0,"MainSelectedTab0":0}</EditorState>
+      <MobileCompatible>true</MobileCompatible>
+      <DynamicsSpec>Pressure</DynamicsSpec>
+      <DynamicsOnly>false</DynamicsOnly>
+      <Visible>true</Visible>
+      <OverrideCalculationRoutine>false</OverrideCalculationRoutine>
+      <StoreDetailedDebugReport>false</StoreDetailedDebugReport>
+      <IsFunctional>true</IsFunctional>
+      <PreferredFlashAlgorithmTag></PreferredFlashAlgorithmTag>
+      <Calculated>true</Calculated>
+      <DebugMode>false</DebugMode>
+      <LastUpdated>08/29/2022 15:37:08</LastUpdated>
+      <ErrorMessage></ErrorMessage>
+      <Annotation></Annotation>
+      <IsAdjustAttached>false</IsAdjustAttached>
+      <AttachedAdjustId></AttachedAdjustId>
+      <AdjustVarType>Manipulated</AdjustVarType>
+      <IsSpecAttached>false</IsSpecAttached>
+      <AttachedSpecId></AttachedSpecId>
+      <SpecVarType>Source</SpecVarType>
+      <Name>MAT-e72b3176-5e3e-4c41-80af-b13caaea5e65</Name>
+      <ProductName>Material Stream</ProductName>
+      <ProductDescription>Contains information about compounds flowing at specified state conditions</ProductDescription>
+      <ProductAuthor>Daniel Medeiros</ProductAuthor>
+      <ProductContactInfo>https://dwsim.inforside.com.br</ProductContactInfo>
+      <ProductPage>https://dwsim.inforside.com.br</ProductPage>
+      <ProductVersion>8.0.4.0</ProductVersion>
+      <ProductAssembly>DWSIM.SharedClasses</ProductAssembly>
+      <IsSource>false</IsSource>
+      <IsSink>false</IsSink>
+      <DynamicProperties />
+      <DynamicPropertiesDescriptions />
+      <DynamicPropertiesUnitTypes />
+      <AttachedUtilities />
+      <PropertyPackage>PP-1ca89469-fb79-4996-9db7-eb57511e291f</PropertyPackage>
+      <Phases>
+        <Phase>
+          <ID>0</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0.0671304806508847</MassFraction>
+              <MoleFraction>0.5</MoleFraction>
+              <Molarity>1946.59078985245</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>NaN</Kvalue>
+              <lnKvalue>NaN</lnKvalue>
+              <MassFlow>0.0671304806508847</MassFlow>
+              <MolarFlow>33.3008317215731</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0.932869519349115</MassFraction>
+              <MoleFraction>0.5</MoleFraction>
+              <Molarity>1946.59078985245</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>NaN</Kvalue>
+              <lnKvalue>NaN</lnKvalue>
+              <MassFlow>0.932869519349115</MassFlow>
+              <MolarFlow>33.3008317215731</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>NaN</Kvalue>
+              <lnKvalue>NaN</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Mixture</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Mixture</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <density>58.4547198739003</density>
+            <enthalpy>551.528361526418</enthalpy>
+            <entropy>-0.144624124930761</entropy>
+            <heatCapacityCp>2.01995063729085</heatCapacityCp>
+            <heatCapacityCv>1.43035323966194</heatCapacityCv>
+            <massflow>1</massflow>
+            <molar_enthalpy>8280.99979810901</molar_enthalpy>
+            <molar_entropy>-2.17147917115039</molar_entropy>
+            <molarflow>66.6016634431462</molarflow>
+            <molecularWeight>15.01464</molecularWeight>
+            <pressure>20265000</pressure>
+            <surfaceTension>NaN</surfaceTension>
+            <temperature>573.15</temperature>
+            <thermalConductivity>0.169352114564859</thermalConductivity>
+            <volumetric_flow>0.017107258441358</volumetric_flow>
+            <gibbs_free_energy>634.419678730483</gibbs_free_energy>
+            <helmholtz_energy>287.741086416363</helmholtz_energy>
+            <internal_energy>204.849769212297</internal_energy>
+            <molar_gibbs_free_energy>9525.58308505386</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>4320.32882575058</molar_helmholtz_energy>
+            <molar_internal_energy>3075.74553880573</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>1</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>NaN</MassFraction>
+              <MoleFraction>NaN</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>NaN</MassFlow>
+              <MolarFlow>NaN</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>NaN</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>NaN</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>NaN</MassFraction>
+              <MoleFraction>NaN</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>NaN</MassFlow>
+              <MolarFlow>NaN</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>NaN</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>NaN</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>NaN</MassFraction>
+              <MoleFraction>NaN</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>NaN</MassFlow>
+              <MolarFlow>NaN</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>NaN</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>NaN</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>OverallLiquid</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>OverallLiquid</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <density>NaN</density>
+            <enthalpy>0</enthalpy>
+            <entropy>0</entropy>
+            <heatCapacityCp>0</heatCapacityCp>
+            <heatCapacityCv>0</heatCapacityCv>
+            <kinematic_viscosity>NaN</kinematic_viscosity>
+            <massflow>0</massflow>
+            <massfraction>0</massfraction>
+            <molar_enthalpy>NaN</molar_enthalpy>
+            <molar_entropy>NaN</molar_entropy>
+            <molarflow>0</molarflow>
+            <molarfraction>0</molarfraction>
+            <molecularWeight>NaN</molecularWeight>
+            <thermalConductivity>0</thermalConductivity>
+            <viscosity>0</viscosity>
+            <volumetric_flow>0</volumetric_flow>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>NaN</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>NaN</molar_helmholtz_energy>
+            <molar_internal_energy>NaN</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>2</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>3.1652613780188E-47</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0.0671304806508847</MassFraction>
+              <MoleFraction>0.5</MoleFraction>
+              <Molarity>1946.59078985245</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>1.08179888537939</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0.0671304806508847</MassFlow>
+              <MolarFlow>33.3008317215731</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>10132500</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>1.69110182981183E-11</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>1.704227080847E-10</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0.932869519349115</MassFraction>
+              <MoleFraction>0.5</MoleFraction>
+              <Molarity>1946.59078985245</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>1.07157995169075</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0.932869519349115</MassFlow>
+              <MolarFlow>33.3008317215731</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>10132500</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>2.16989631398352E-12</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0.173924223998956</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0.973980433912263</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>2.58211468526984E-12</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Vapor</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Vapor</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <compressibilityFactor>1.09235457337774</compressibilityFactor>
+            <density>58.4547198739003</density>
+            <enthalpy>551.528361526418</enthalpy>
+            <enthalpyF>551.528361526418</enthalpyF>
+            <entropy>-0.144624124930761</entropy>
+            <entropyF>-3.43930107989626</entropyF>
+            <heatCapacityCp>2.01995063729085</heatCapacityCp>
+            <heatCapacityCv>1.43035323966194</heatCapacityCv>
+            <jouleThomsonCoefficient>-9.13464610730176E-09</jouleThomsonCoefficient>
+            <kinematic_viscosity>3.77299309907542E-07</kinematic_viscosity>
+            <massflow>1</massflow>
+            <massfraction>1</massfraction>
+            <molar_enthalpy>8280.99979810901</molar_enthalpy>
+            <molar_entropy>-2.17147917115039</molar_entropy>
+            <molarflow>66.6016634431462</molarflow>
+            <molarfraction>1</molarfraction>
+            <molecularWeight>15.01464</molecularWeight>
+            <speedOfSound>736.474666445897</speedOfSound>
+            <thermalConductivity>0.169352114564859</thermalConductivity>
+            <viscosity>2.20549254692613E-05</viscosity>
+            <volumetric_flow>0.017107258441358</volumetric_flow>
+            <bulk_modulus>22451106.8052349</bulk_modulus>
+            <gibbs_free_energy>634.419678730483</gibbs_free_energy>
+            <helmholtz_energy>287.741086416363</helmholtz_energy>
+            <internal_energy>204.849769212297</internal_energy>
+            <isothermal_compressibility>4.45412339211192E-08</isothermal_compressibility>
+            <molar_gibbs_free_energy>9525.58308505386</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>4320.32882575058</molar_helmholtz_energy>
+            <molar_internal_energy>3075.74553880573</molar_internal_energy>
+            <idealGasHeatCapacityCp>1.9806697140611</idealGasHeatCapacityCp>
+            <idealGasHeatCapacityRatio>1.3880505682247</idealGasHeatCapacityRatio>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>3</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>1.323911699771E-38</MassFraction>
+              <MoleFraction>1.83975573994309E-37</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>1.56983606817208</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>5.8527648796841E-30</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>1</MassFraction>
+              <MoleFraction>1</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>6.4837378029162E-16</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>1.31392946576097E-08</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0.470034733915874</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Liquid1</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Liquid1</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>0</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>0</molar_helmholtz_energy>
+            <molar_internal_energy>0</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>4</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>NaN</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>NaN</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>NaN</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Liquid2</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Liquid2</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>0</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>0</molar_helmholtz_energy>
+            <molar_internal_energy>0</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>5</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Liquid3</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Liquid3</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>0</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>0</molar_helmholtz_energy>
+            <molar_internal_energy>0</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>6</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Aqueous</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Aqueous</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>0</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>0</molar_helmholtz_energy>
+            <molar_internal_energy>0</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>7</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Solid</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Solid</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>0</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>0</molar_helmholtz_energy>
+            <molar_internal_energy>0</molar_internal_energy>
+          </Properties>
+        </Phase>
+      </Phases>
+    </SimulationObject>
+    <SimulationObject>
+      <Type>DWSIM.UnitOperations.Reactors.Reactor_PFR</Type>
+      <ReactorSizingType>Length</ReactorSizingType>
+      <SupportsDynamicMode>true</SupportsDynamicMode>
+      <HasPropertiesForDynamicMode>true</HasPropertiesForDynamicMode>
+      <NumberOfTubes>1</NumberOfTubes>
+      <Length>1</Length>
+      <Diameter>1.38197659788534</Diameter>
+      <Volume>1.5</Volume>
+      <dV>0.01</dV>
+      <CatalystLoading>0</CatalystLoading>
+      <CatalystVoidFraction>0</CatalystVoidFraction>
+      <CatalystParticleDiameter>0</CatalystParticleDiameter>
+      <ResidenceTime>87.6820798108505</ResidenceTime>
+      <MobileCompatible>true</MobileCompatible>
+      <ObjectClass>Reactors</ObjectClass>
+      <OutletTemperature>1059.21806307761</OutletTemperature>
+      <ReactorOperationMode>Adiabatic</ReactorOperationMode>
+      <ReactionSetID>DefaultSet</ReactionSetID>
+      <ReactionSetName></ReactionSetName>
+      <DeltaP>7202.58842299134</DeltaP>
+      <DeltaT>486.068063077609</DeltaT>
+      <DeltaQ>0</DeltaQ>
+      <ExternalSolverID></ExternalSolverID>
+      <ExternalSolverConfigData></ExternalSolverConfigData>
+      <ComponentDescription>ReatorPFR</ComponentDescription>
+      <ComponentName>PFR-1d30a320-4431-4620-b68c-13f93bee9785</ComponentName>
+      <DynamicsSpec>Pressure</DynamicsSpec>
+      <DynamicsOnly>false</DynamicsOnly>
+      <Visible>true</Visible>
+      <OverrideCalculationRoutine>false</OverrideCalculationRoutine>
+      <StoreDetailedDebugReport>false</StoreDetailedDebugReport>
+      <IsFunctional>true</IsFunctional>
+      <PreferredFlashAlgorithmTag></PreferredFlashAlgorithmTag>
+      <Calculated>true</Calculated>
+      <DebugMode>false</DebugMode>
+      <LastUpdated>08/29/2022 15:37:12</LastUpdated>
+      <ErrorMessage></ErrorMessage>
+      <Annotation></Annotation>
+      <IsAdjustAttached>false</IsAdjustAttached>
+      <AttachedAdjustId></AttachedAdjustId>
+      <AdjustVarType>Manipulated</AdjustVarType>
+      <IsSpecAttached>false</IsSpecAttached>
+      <AttachedSpecId></AttachedSpecId>
+      <SpecVarType>Source</SpecVarType>
+      <Name>PFR-1d30a320-4431-4620-b68c-13f93bee9785</Name>
+      <ProductName>Plug-Flow Reactor (PFR)</ProductName>
+      <ProductDescription>Plug-Flow Reactor model, supports Kinetic and HetCat reactions</ProductDescription>
+      <ProductAuthor>Daniel Medeiros</ProductAuthor>
+      <ProductContactInfo>https://dwsim.inforside.com.br</ProductContactInfo>
+      <ProductPage>https://dwsim.inforside.com.br</ProductPage>
+      <ProductVersion>8.0.4.0</ProductVersion>
+      <ProductAssembly>DWSIM.SharedClasses</ProductAssembly>
+      <IsSource>false</IsSource>
+      <IsSink>false</IsSink>
+      <DynamicProperties>
+        <Property>
+          <Name>Max Sections</Name>
+          <PropertyType>System.Double</PropertyType>
+          <Data>20.0</Data>
+        </Property>
+        <Property>
+          <Name>Reset Contents</Name>
+          <PropertyType>System.Double</PropertyType>
+          <Data>0.0</Data>
+        </Property>
+      </DynamicProperties>
+      <DynamicPropertiesDescriptions>
+        <Property>
+          <Name>Max Sections</Name>
+          <PropertyType>System.String</PropertyType>
+          <Data>"Maximum number of sections to divide the PFR length in during dynamic calculations."</Data>
+        </Property>
+        <Property>
+          <Name>Reset Contents</Name>
+          <PropertyType>System.String</PropertyType>
+          <Data>"Empties the PFR's content on the next run."</Data>
+        </Property>
+      </DynamicPropertiesDescriptions>
+      <DynamicPropertiesUnitTypes>
+        <Property>
+          <Name>Max Sections</Name>
+          <PropertyType>DWSIM.Interfaces.Enums.UnitOfMeasure</PropertyType>
+          <Data>66</Data>
+        </Property>
+        <Property>
+          <Name>Reset Contents</Name>
+          <PropertyType>DWSIM.Interfaces.Enums.UnitOfMeasure</PropertyType>
+          <Data>66</Data>
+        </Property>
+      </DynamicPropertiesUnitTypes>
+      <AttachedUtilities />
+      <PropertyPackage>PP-1ca89469-fb79-4996-9db7-eb57511e291f</PropertyPackage>
+      <ReactionConversions />
+      <CompoundConversions>
+        <Compound ID="Hydrogen">0.802921766364509</Compound>
+        <Compound ID="Nitrogen">0.267640588788594</Compound>
+        <Compound ID="Ammonia">0</Compound>
+      </CompoundConversions>
+      <AccumulationStreams />
+    </SimulationObject>
+    <SimulationObject>
+      <Type>DWSIM.UnitOperations.Streams.EnergyStream</Type>
+      <ObjectClass>Streams</ObjectClass>
+      <SupportsDynamicMode>true</SupportsDynamicMode>
+      <HasPropertiesForDynamicMode>false</HasPropertiesForDynamicMode>
+      <ComponentDescription>CorrentedeEnergia</ComponentDescription>
+      <ComponentName>EN-00580332-cd1e-4cd0-b9e0-9c8267c5576a</ComponentName>
+      <EnergyFlow>0</EnergyFlow>
+      <MobileCompatible>true</MobileCompatible>
+      <Name2>EN-00580332-cd1e-4cd0-b9e0-9c8267c5576a</Name2>
+      <code>0</code>
+      <DynamicsSpec>Pressure</DynamicsSpec>
+      <DynamicsOnly>false</DynamicsOnly>
+      <Visible>true</Visible>
+      <OverrideCalculationRoutine>false</OverrideCalculationRoutine>
+      <StoreDetailedDebugReport>false</StoreDetailedDebugReport>
+      <IsFunctional>true</IsFunctional>
+      <PreferredFlashAlgorithmTag></PreferredFlashAlgorithmTag>
+      <Calculated>true</Calculated>
+      <DebugMode>false</DebugMode>
+      <LastUpdated>08/29/2022 15:37:08</LastUpdated>
+      <ErrorMessage></ErrorMessage>
+      <Annotation></Annotation>
+      <IsAdjustAttached>false</IsAdjustAttached>
+      <AttachedAdjustId></AttachedAdjustId>
+      <AdjustVarType>Manipulated</AdjustVarType>
+      <IsSpecAttached>false</IsSpecAttached>
+      <AttachedSpecId></AttachedSpecId>
+      <SpecVarType>Source</SpecVarType>
+      <Name>EN-00580332-cd1e-4cd0-b9e0-9c8267c5576a</Name>
+      <ProductName>Energy Stream</ProductName>
+      <ProductDescription>Energy flow from/to Unit Operations</ProductDescription>
+      <ProductAuthor>Daniel Medeiros</ProductAuthor>
+      <ProductContactInfo>https://dwsim.inforside.com.br</ProductContactInfo>
+      <ProductPage>https://dwsim.inforside.com.br</ProductPage>
+      <ProductVersion>8.0.4.0</ProductVersion>
+      <ProductAssembly>DWSIM.SharedClasses</ProductAssembly>
+      <IsSource>false</IsSource>
+      <IsSink>false</IsSink>
+      <DynamicProperties />
+      <DynamicPropertiesDescriptions />
+      <DynamicPropertiesUnitTypes />
+      <AttachedUtilities />
+    </SimulationObject>
+    <SimulationObject>
+      <Type>DWSIM.Thermodynamics.Streams.MaterialStream</Type>
+      <ObjectClass>Streams</ObjectClass>
+      <SupportsDynamicMode>true</SupportsDynamicMode>
+      <HasPropertiesForDynamicMode>false</HasPropertiesForDynamicMode>
+      <OverrideSingleCompoundFlashBehavior>false</OverrideSingleCompoundFlashBehavior>
+      <FloatingTableAmountBasis>DefaultBasis</FloatingTableAmountBasis>
+      <DefinedFlow>Mass</DefinedFlow>
+      <ForcePhase>GlobalDef</ForcePhase>
+      <TotalEnergyFlow>551.524320162785</TotalEnergyFlow>
+      <AtEquilibrium>true</AtEquilibrium>
+      <ComponentDescription>CorrentedeMatria</ComponentDescription>
+      <ComponentName>MAT-4a4ba6c0-4c2a-4541-8969-c4feccf49729</ComponentName>
+      <Name2>MAT-4a4ba6c0-4c2a-4541-8969-c4feccf49729</Name2>
+      <code>0</code>
+      <InputComposition />
+      <IsElectrolyteStream>false</IsElectrolyteStream>
+      <ReferenceSolvent></ReferenceSolvent>
+      <SpecType>Pressure_and_Enthalpy</SpecType>
+      <CompositionBasis>Molar_Fractions</CompositionBasis>
+      <EditorState>{}</EditorState>
+      <MobileCompatible>true</MobileCompatible>
+      <DynamicsSpec>Pressure</DynamicsSpec>
+      <DynamicsOnly>false</DynamicsOnly>
+      <Visible>true</Visible>
+      <OverrideCalculationRoutine>false</OverrideCalculationRoutine>
+      <StoreDetailedDebugReport>false</StoreDetailedDebugReport>
+      <IsFunctional>true</IsFunctional>
+      <PreferredFlashAlgorithmTag></PreferredFlashAlgorithmTag>
+      <Calculated>true</Calculated>
+      <DebugMode>false</DebugMode>
+      <LastUpdated>08/29/2022 15:37:12</LastUpdated>
+      <ErrorMessage></ErrorMessage>
+      <Annotation></Annotation>
+      <IsAdjustAttached>false</IsAdjustAttached>
+      <AttachedAdjustId></AttachedAdjustId>
+      <AdjustVarType>Manipulated</AdjustVarType>
+      <IsSpecAttached>false</IsSpecAttached>
+      <AttachedSpecId></AttachedSpecId>
+      <SpecVarType>Source</SpecVarType>
+      <Name>MAT-4a4ba6c0-4c2a-4541-8969-c4feccf49729</Name>
+      <ProductName>Material Stream</ProductName>
+      <ProductDescription>Contains information about compounds flowing at specified state conditions</ProductDescription>
+      <ProductAuthor>Daniel Medeiros</ProductAuthor>
+      <ProductContactInfo>https://dwsim.inforside.com.br</ProductContactInfo>
+      <ProductPage>https://dwsim.inforside.com.br</ProductPage>
+      <ProductVersion>8.0.4.0</ProductVersion>
+      <ProductAssembly>DWSIM.SharedClasses</ProductAssembly>
+      <IsSource>false</IsSource>
+      <IsSink>false</IsSink>
+      <DynamicProperties />
+      <DynamicPropertiesDescriptions />
+      <DynamicPropertiesUnitTypes />
+      <AttachedUtilities />
+      <PropertyPackage>PP-1ca89469-fb79-4996-9db7-eb57511e291f</PropertyPackage>
+      <Phases>
+        <Phase>
+          <ID>0</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0.0132299565497542</MassFraction>
+              <MoleFraction>0.134550215794268</MoleFraction>
+              <Molarity>293.209361398122</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>NaN</Kvalue>
+              <lnKvalue>NaN</lnKvalue>
+              <MassFlow>0.0132299565497779</MassFlow>
+              <MolarFlow>6.56286909428036</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0.683195771926363</MassFraction>
+              <MoleFraction>0.49999999999854</MoleFraction>
+              <Molarity>1089.59082550114</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>NaN</Kvalue>
+              <lnKvalue>NaN</lnKvalue>
+              <MassFlow>0.683195771927585</MassFlow>
+              <MolarFlow>24.3881775124614</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0.303574271523883</MassFraction>
+              <MoleFraction>0.365449784207192</MoleFraction>
+              <Molarity>796.381464109379</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>NaN</Kvalue>
+              <lnKvalue>NaN</lnKvalue>
+              <MassFlow>0.303574271524426</MassFlow>
+              <MolarFlow>17.8253084183234</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Mixture</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Mixture</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <density>44.6770089706928</density>
+            <enthalpy>1369.67032594454</enthalpy>
+            <entropy>1.43115930369249</entropy>
+            <heatCapacityCp>2.06786073614714</heatCapacityCp>
+            <heatCapacityCv>1.63372444634325</heatCapacityCv>
+            <massflow>1.00000000000179</massflow>
+            <massfraction>1</massfraction>
+            <molar_enthalpy>28080.6207278742</molar_enthalpy>
+            <molar_entropy>29.3412515748585</molar_entropy>
+            <molarflow>48.7763550250652</molarflow>
+            <molecularWeight>20.5017369479107</molecularWeight>
+            <pressure>20257797.411577</pressure>
+            <surfaceTension>NaN</surfaceTension>
+            <temperature>1059.21806307761</temperature>
+            <thermalConductivity>0.151385312538271</thermalConductivity>
+            <volumetric_flow>0.0223828770779567</volumetric_flow>
+            <gibbs_free_energy>-146.239459668114</gibbs_free_energy>
+            <helmholtz_energy>-599.667249000782</helmholtz_energy>
+            <internal_energy>916.242536611877</internal_energy>
+            <molar_gibbs_free_energy>-2998.16293352028</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>-12294.2201952913</molar_helmholtz_energy>
+            <molar_internal_energy>18784.5634661032</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>1</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>NaN</MassFraction>
+              <MoleFraction>NaN</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>NaN</MassFlow>
+              <MolarFlow>NaN</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>NaN</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>NaN</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>NaN</MassFraction>
+              <MoleFraction>NaN</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>NaN</MassFlow>
+              <MolarFlow>NaN</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>NaN</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>NaN</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>NaN</MassFraction>
+              <MoleFraction>NaN</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>NaN</MassFlow>
+              <MolarFlow>NaN</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>NaN</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>NaN</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>OverallLiquid</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>OverallLiquid</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <density>NaN</density>
+            <enthalpy>0</enthalpy>
+            <entropy>0</entropy>
+            <heatCapacityCp>0</heatCapacityCp>
+            <heatCapacityCv>0</heatCapacityCv>
+            <kinematic_viscosity>NaN</kinematic_viscosity>
+            <massflow>0</massflow>
+            <massfraction>0</massfraction>
+            <molar_enthalpy>NaN</molar_enthalpy>
+            <molar_entropy>NaN</molar_entropy>
+            <molarflow>0</molarflow>
+            <molarfraction>0</molarfraction>
+            <molecularWeight>NaN</molecularWeight>
+            <thermalConductivity>0</thermalConductivity>
+            <viscosity>0</viscosity>
+            <volumetric_flow>0</volumetric_flow>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>NaN</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>NaN</molar_helmholtz_energy>
+            <molar_internal_energy>NaN</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>2</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>3.51386649582214E-157</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0.0132299565497542</MassFraction>
+              <MoleFraction>0.134550215794268</MoleFraction>
+              <Molarity>293.209361398122</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>1.05615455239878</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0.0132299565497779</MassFlow>
+              <MolarFlow>6.56286909428036</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>2725691.01324426</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>4.95540365209225E-11</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>3.69651954652783E-37</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0.683195771926363</MassFraction>
+              <MoleFraction>0.49999999999854</MoleFraction>
+              <Molarity>1089.59082550114</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>1.05342027189924</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0.683195771927585</MassFlow>
+              <MolarFlow>24.3881775124614</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>10128898.7057589</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>6.35840605776645E-12</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0.000213653597313063</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0.303574271523883</MassFraction>
+              <MoleFraction>0.365449784207192</MoleFraction>
+              <Molarity>796.381464109379</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>1.00520356729177</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0.303574271524426</MassFlow>
+              <MolarFlow>17.8253084183234</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>7403207.69257383</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>7.56632174121115E-12</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Vapor</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Vapor</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <compressibilityFactor>1.05560974732572</compressibilityFactor>
+            <density>44.6770089706928</density>
+            <enthalpy>1369.67032594454</enthalpy>
+            <enthalpyF>551.524320161799</enthalpyF>
+            <entropy>1.43115930369249</entropy>
+            <entropyF>0.781850189009492</entropyF>
+            <heatCapacityCp>2.06786073614714</heatCapacityCp>
+            <heatCapacityCv>1.63372444634325</heatCapacityCv>
+            <jouleThomsonCoefficient>1.2250117430932E-10</jouleThomsonCoefficient>
+            <kinematic_viscosity>8.69176563782318E-07</kinematic_viscosity>
+            <massflow>1.00000000000179</massflow>
+            <massfraction>1</massfraction>
+            <molar_enthalpy>28080.6207278742</molar_enthalpy>
+            <molar_entropy>29.3412515748585</molar_entropy>
+            <molarflow>48.7763550250652</molarflow>
+            <molarfraction>1</molarfraction>
+            <molecularWeight>20.5017369479107</molecularWeight>
+            <speedOfSound>780.190510007326</speedOfSound>
+            <thermalConductivity>0.151385312538271</thermalConductivity>
+            <viscosity>3.88322091372186E-05</viscosity>
+            <volumetric_flow>0.0223828770779567</volumetric_flow>
+            <bulk_modulus>21485374.9802851</bulk_modulus>
+            <gibbs_free_energy>-146.239459668114</gibbs_free_energy>
+            <helmholtz_energy>-599.667249000782</helmholtz_energy>
+            <internal_energy>916.242536611877</internal_energy>
+            <isothermal_compressibility>4.65432882096586E-08</isothermal_compressibility>
+            <molar_gibbs_free_energy>-2998.16293352028</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>-12294.2201952913</molar_helmholtz_energy>
+            <molar_internal_energy>18784.5634661032</molar_internal_energy>
+            <idealGasHeatCapacityCp>2.03665266062523</idealGasHeatCapacityCp>
+            <idealGasHeatCapacityRatio>1.24861758349932</idealGasHeatCapacityRatio>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>3</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>6.82173822241703E-155</MassFraction>
+              <MoleFraction>5.76312822348739E-154</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0.573480998800002</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>6.69529225212945E-147</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>3.71548365846954E-33</MassFraction>
+              <MoleFraction>2.25879824495558E-33</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>1.66073420923633E-85</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>7.59923363680817E-111</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>1</MassFraction>
+              <MoleFraction>1</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>1.74857002635405E-07</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>3.54221773538363</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Liquid1</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Liquid1</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>0</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>0</molar_helmholtz_energy>
+            <molar_internal_energy>0</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>4</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>NaN</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>NaN</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>NaN</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Liquid2</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Liquid2</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>0</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>0</molar_helmholtz_energy>
+            <molar_internal_energy>0</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>5</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Liquid3</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Liquid3</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>0</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>0</molar_helmholtz_energy>
+            <molar_internal_energy>0</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>6</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>0</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Aqueous</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Aqueous</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>0</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>0</molar_helmholtz_energy>
+            <molar_internal_energy>0</molar_internal_energy>
+          </Properties>
+        </Phase>
+        <Phase>
+          <ID>7</ID>
+          <Compounds>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Hydrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Hydrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Nitrogen</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Nitrogen</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+            <Compound>
+              <Type>DWSIM.Thermodynamics.BaseClasses.Compound</Type>
+              <ComponentDescription></ComponentDescription>
+              <ComponentName>Ammonia</ComponentName>
+              <ActivityCoeff>0</ActivityCoeff>
+              <PetroleumFraction>false</PetroleumFraction>
+              <MassFraction>0</MassFraction>
+              <MoleFraction>0</MoleFraction>
+              <Molarity>0</Molarity>
+              <Molality>0</Molality>
+              <FugacityCoeff>NaN</FugacityCoeff>
+              <Kvalue>0</Kvalue>
+              <lnKvalue>0</lnKvalue>
+              <MassFlow>0</MassFlow>
+              <MolarFlow>0</MolarFlow>
+              <Name>Ammonia</Name>
+              <PartialPressure>0</PartialPressure>
+              <PartialVolume>0</PartialVolume>
+              <VolumetricFlow>0</VolumetricFlow>
+              <VolumetricFraction>0</VolumetricFraction>
+              <DiffusionCoefficient>Infinity</DiffusionCoefficient>
+              <EnthalpyF_Dmol>0</EnthalpyF_Dmol>
+              <EntropyF_Dmol>0</EntropyF_Dmol>
+              <DynamicProperties />
+            </Compound>
+          </Compounds>
+          <Properties>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties>
+          <ComponentDescription></ComponentDescription>
+          <ComponentName>Solid</ComponentName>
+          <Compounds>System.Collections.Generic.Dictionary`2[System.String,DWSIM.Interfaces.ICompound]</Compounds>
+          <Name>Solid</Name>
+          <Properties1>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Properties1>
+          <Properties>
+            <Type>DWSIM.Thermodynamics.BaseClasses.PhaseProperties</Type>
+            <gibbs_free_energy>0</gibbs_free_energy>
+            <helmholtz_energy>0</helmholtz_energy>
+            <internal_energy>0</internal_energy>
+            <molar_gibbs_free_energy>0</molar_gibbs_free_energy>
+            <molar_helmholtz_energy>0</molar_helmholtz_energy>
+            <molar_internal_energy>0</molar_internal_energy>
+          </Properties>
+        </Phase>
+      </Phases>
+    </SimulationObject>
+  </SimulationObjects>
+  <Settings>
+    <Type>DWSIM.SharedClasses.DWSIM.Flowsheet.FlowsheetVariables</Type>
+    <SelectedPropertyPackage>
+      <Type>DWSIM.Thermodynamics.PropertyPackages.ChaoSeaderPropertyPackage</Type>
+      <ComponentName>Chao-Seader</ComponentName>
+      <ComponentDescription>Uses the empirical model of Chao and Seader for the calculation of VLE K-values. All other thermodynamic properties are calculated by the Lee-Kesler model.</ComponentDescription>
+      <Tag>Chao-Seader (1)</Tag>
+      <SingleCompoundCheckThreshold>0.99999</SingleCompoundCheckThreshold>
+      <OverrideKvalFugCoeff>false</OverrideKvalFugCoeff>
+      <OverrideEnthalpyCalculation>false</OverrideEnthalpyCalculation>
+      <OverrideEntropyCalculation>false</OverrideEntropyCalculation>
+      <LiquidDensityCalculationMode_Subcritical>Rackett_and_ExpData</LiquidDensityCalculationMode_Subcritical>
+      <LiquidDensityCalculationMode_Supercritical>Rackett_and_ExpData</LiquidDensityCalculationMode_Supercritical>
+      <LiquidDensity_CorrectExpDataForPressure>true</LiquidDensity_CorrectExpDataForPressure>
+      <LiquidDensity_UsePenelouxVolumeTranslation>true</LiquidDensity_UsePenelouxVolumeTranslation>
+      <LiquidViscosityCalculationMode_Subcritical>ExpData</LiquidViscosityCalculationMode_Subcritical>
+      <LiquidViscosityCalculationMode_Supercritical>Letsou_Stiel</LiquidViscosityCalculationMode_Supercritical>
+      <LiquidViscosity_CorrectExpDataForPressure>true</LiquidViscosity_CorrectExpDataForPressure>
+      <LiquidViscosity_MixingRule>MoleAverage</LiquidViscosity_MixingRule>
+      <VaporPhaseFugacityCalculationMode>Ideal</VaporPhaseFugacityCalculationMode>
+      <SolidPhaseFugacityCalculationMethod>FromLiquidFugacity</SolidPhaseFugacityCalculationMethod>
+      <SolidPhaseFugacity_UseIdealLiquidPhaseFugacity>false</SolidPhaseFugacity_UseIdealLiquidPhaseFugacity>
+      <SolidPhaseEnthalpy_UsesCp>false</SolidPhaseEnthalpy_UsesCp>
+      <EnthalpyEntropyCpCvCalculationMode>LeeKesler</EnthalpyEntropyCpCvCalculationMode>
+      <LiquidFugacity_UsePoyntingCorrectionFactor>true</LiquidFugacity_UsePoyntingCorrectionFactor>
+      <ActivityCoefficientModels_IgnoreMissingInteractionParameters>false</ActivityCoefficientModels_IgnoreMissingInteractionParameters>
+      <IgnoreVaporFractionLimit>false</IgnoreVaporFractionLimit>
+      <IgnoreSalinityLimit>false</IgnoreSalinityLimit>
+      <CalculateAdditionalMaterialStreamProperties>true</CalculateAdditionalMaterialStreamProperties>
+      <FlashCalculationApproach>NestedLoops</FlashCalculationApproach>
+      <ForcedSolids>[]</ForcedSolids>
+      <PropertyOverrides>{}</PropertyOverrides>
+      <FlashSettings>
+        <Setting Name="Replace_PTFlash" Value="False" />
+        <Setting Name="ValidateEquilibriumCalc" Value="False" />
+        <Setting Name="UsePhaseIdentificationAlgorithm" Value="False" />
+        <Setting Name="CalculateBubbleAndDewPoints" Value="False" />
+        <Setting Name="ValidationGibbsTolerance" Value="0.01" />
+        <Setting Name="PHFlash_Maximum_Number_Of_External_Iterations" Value="100" />
+        <Setting Name="PHFlash_External_Loop_Tolerance" Value="0.0001" />
+        <Setting Name="PHFlash_Maximum_Number_Of_Internal_Iterations" Value="100" />
+        <Setting Name="PHFlash_Internal_Loop_Tolerance" Value="0.0001" />
+        <Setting Name="PTFlash_Maximum_Number_Of_External_Iterations" Value="100" />
+        <Setting Name="PTFlash_External_Loop_Tolerance" Value="0.0001" />
+        <Setting Name="PTFlash_Maximum_Number_Of_Internal_Iterations" Value="100" />
+        <Setting Name="PTFlash_Internal_Loop_Tolerance" Value="0.0001" />
+        <Setting Name="NL_FastMode" Value="True" />
+        <Setting Name="IO_FastMode" Value="True" />
+        <Setting Name="GM_OptimizationMethod" Value="IPOPT" />
+        <Setting Name="ThreePhaseFlashStabTestSeverity" Value="0" />
+        <Setting Name="ThreePhaseFlashStabTestCompIds" Value="" />
+        <Setting Name="PVFlash_FixedDampingFactor" Value="1.0" />
+        <Setting Name="PVFlash_MaximumTemperatureChange" Value="10.0" />
+        <Setting Name="PVFlash_TemperatureDerivativeEpsilon" Value="0.1" />
+        <Setting Name="ST_Number_of_Random_Tries" Value="20" />
+        <Setting Name="CheckIncipientLiquidForStability" Value="False" />
+        <Setting Name="PHFlash_MaximumTemperatureChange" Value="30.0" />
+        <Setting Name="PTFlash_DampingFactor" Value="1.0" />
+        <Setting Name="ForceEquilibriumCalculationType" Value="Default" />
+        <Setting Name="ImmiscibleWaterOption" Value="False" />
+        <Setting Name="HandleSolidsInDefaultEqCalcMode" Value="False" />
+        <Setting Name="UseIOFlash" Value="False" />
+        <Setting Name="GibbsMinimizationExternalSolver" Value="" />
+        <Setting Name="GibbsMinimizationExternalSolverConfigData" Value="" />
+        <Setting Name="PHFlash_Use_Interpolated_Result_In_Oscillating_Temperature_Cases" Value="False" />
+        <Setting Name="PVFlash_TryIdealCalcOnFailure" Value="True" />
+      </FlashSettings>
+    </SelectedPropertyPackage>
+    <SimulationMode></SimulationMode>
+    <BackupFileName>13720977.dwbcs</BackupFileName>
+    <FilePath>C:\Users\rahul\Desktop\Di\lab5\190020091-Rahul-Kumawat\Q-1.dwxml</FilePath>
+    <FlowsheetQuickConnect>false</FlowsheetQuickConnect>
+    <FlowsheetShowCalculationQueue>false</FlowsheetShowCalculationQueue>
+    <FlowsheetShowConsoleWindow>false</FlowsheetShowConsoleWindow>
+    <FlowsheetShowCOReportsWindow>false</FlowsheetShowCOReportsWindow>
+    <FlowsheetShowWatchWindow>false</FlowsheetShowWatchWindow>
+    <FlowsheetMultiSelectMode>false</FlowsheetMultiSelectMode>
+    <FlowsheetSnapToGrid>false</FlowsheetSnapToGrid>
+    <FlowsheetDisplayGrid>false</FlowsheetDisplayGrid>
+    <FractionNumberFormat>G8</FractionNumberFormat>
+    <Key>DFAC02921A2FB0119C372323B1717E0C5695F02E</Key>
+    <NumberFormat>G6</NumberFormat>
+    <Password></Password>
+    <SimulationAuthor>LAPTOP-1QPDP4VC\rahul</SimulationAuthor>
+    <SimulationComments></SimulationComments>
+    <SimulationName>MySimulation_3</SimulationName>
+    <UsePassword>false</UsePassword>
+    <SelectedUnitSystem1>
+      <Type>DWSIM.SharedClasses.SystemsOfUnits.SIUnits_Custom5</Type>
+      <accel>m/s2</accel>
+      <activity>Pa</activity>
+      <activityCoefficient>-</activityCoefficient>
+      <area>m2</area>
+      <cakeresistance>m/kg</cakeresistance>
+      <cinematic_viscosity>m2/s</cinematic_viscosity>
+      <compressibility>1/Pa</compressibility>
+      <compressibilityfactor>-</compressibilityfactor>
+      <deltaP>bar</deltaP>
+      <deltaT>C.</deltaT>
+      <density>kg/m3</density>
+      <diameter>mm</diameter>
+      <distance>m</distance>
+      <enthalpy>kJ/kg</enthalpy>
+      <entropy>kJ/[kg.K]</entropy>
+      <excessEnthalpy>kJ/kg</excessEnthalpy>
+      <excessEntropy>kJ/[kg.K]</excessEntropy>
+      <force>N</force>
+      <foulingfactor>K.m2/W</foulingfactor>
+      <fugacity>Pa</fugacity>
+      <fugacityCoefficient>-</fugacityCoefficient>
+      <gor>m3/m3</gor>
+      <head>m</head>
+      <heat_transf_coeff>W/[m2.K]</heat_transf_coeff>
+      <heatCapacityCp>kJ/[kg.K]</heatCapacityCp>
+      <heatCapacityCv>kJ/[kg.K]</heatCapacityCv>
+      <heatflow>kW</heatflow>
+      <idealGasHeatCapacity>kJ/[kg.K]</idealGasHeatCapacity>
+      <jouleThomsonCoefficient>K/Pa</jouleThomsonCoefficient>
+      <kvalue>-</kvalue>
+      <logfugacityCoefficient>-</logfugacityCoefficient>
+      <logKvalue>-</logKvalue>
+      <mass>kg</mass>
+      <mass_conc>kg/m3</mass_conc>
+      <massflow>kg/h</massflow>
+      <massfraction>-</massfraction>
+      <mediumresistance>m-1</mediumresistance>
+      <molar_conc>kmol/m3</molar_conc>
+      <molar_enthalpy>kJ/kmol</molar_enthalpy>
+      <molar_entropy>kJ/[kmol.K]</molar_entropy>
+      <molar_volume>m3/kmol</molar_volume>
+      <molarflow>kmol/h</molarflow>
+      <molarfraction>-</molarfraction>
+      <molecularWeight>kg/kmol</molecularWeight>
+      <Name>C5</Name>
+      <pdp_boilingPointTemperature>C</pdp_boilingPointTemperature>
+      <pdp_meltingTemperature>C</pdp_meltingTemperature>
+      <pressure>bar</pressure>
+      <reac_rate>kmol/[m3.h]</reac_rate>
+      <reac_rate_heterog>kmol/[kg.s]</reac_rate_heterog>
+      <spec_vol>m3/kg</spec_vol>
+      <speedOfSound>m/s</speedOfSound>
+      <surfaceTension>N/m</surfaceTension>
+      <temperature>C</temperature>
+      <thermalConductivity>W/[m.K]</thermalConductivity>
+      <thermalConductivityOfLiquid>W/[m.K]</thermalConductivityOfLiquid>
+      <thermalConductivityOfVapor>W/[m.K]</thermalConductivityOfVapor>
+      <thickness>mm</thickness>
+      <time>h</time>
+      <vaporPressure>bar</vaporPressure>
+      <velocity>m/s</velocity>
+      <viscosity>Pa.s</viscosity>
+      <viscosityOfLiquid>Pa.s</viscosityOfLiquid>
+      <viscosityOfVapor>Pa.s</viscosityOfVapor>
+      <volume>m3</volume>
+      <volumetricFlow>m3/h</volumetricFlow>
+      <diffusivity>m2/s</diffusivity>
+      <conductance>[kg/s]/[Pa^0.5]</conductance>
+    </SelectedUnitSystem1>
+    <SimultaneousAdjustSolverEnabled>true</SimultaneousAdjustSolverEnabled>
+    <SpreadsheetUseRegionalSeparator>false</SpreadsheetUseRegionalSeparator>
+    <EnergyBalanceCheck>ShowWarning</EnergyBalanceCheck>
+    <MassBalanceCheck>ShowWarning</MassBalanceCheck>
+    <EnergyBalanceRelativeTolerance>0.01</EnergyBalanceRelativeTolerance>
+    <MassBalanceRelativeTolerance>0.01</MassBalanceRelativeTolerance>
+    <DisplayCornerPropertyList>false</DisplayCornerPropertyList>
+    <DisplayCornerPropertyListPosition>RightBottom</DisplayCornerPropertyListPosition>
+    <DisplayFloatingPropertyTables>true</DisplayFloatingPropertyTables>
+    <DisplayCornerPropertyListFontColor>DimGray</DisplayCornerPropertyListFontColor>
+    <DisplayCornerPropertyListFontName>Consolas</DisplayCornerPropertyListFontName>
+    <DisplayCornerPropertyListFontSize>8</DisplayCornerPropertyListFontSize>
+    <DisplayCornerPropertyListPadding>4</DisplayCornerPropertyListPadding>
+    <DefaultFloatingTableCompoundAmountBasis>Molar_Fractions</DefaultFloatingTableCompoundAmountBasis>
+    <DisplayFloatingTableCompoundAmounts>true</DisplayFloatingTableCompoundAmounts>
+    <SpreadsheetUnitLockingMode>true</SpreadsheetUnitLockingMode>
+    <CompoundOrderingMode>AsAdded</CompoundOrderingMode>
+    <FlowsheetControlPanelMode>false</FlowsheetControlPanelMode>
+    <SkipEquilibriumCalculationOnDefinedStreams>true</SkipEquilibriumCalculationOnDefinedStreams>
+    <ForceStreamPhase>None</ForceStreamPhase>
+    <DisplayUserDefinedPropertiesEditor>false</DisplayUserDefinedPropertiesEditor>
+    <LabelFontSize>10</LabelFontSize>
+    <FlowsheetColorTheme>0</FlowsheetColorTheme>
+    <RegularFontName>OpenSans_SemiCondensed-Regular</RegularFontName>
+    <BoldFontName>OpenSans_SemiCondensed-SemiBold</BoldFontName>
+    <ItalicFontName>OpenSans_SemiCondensed-Italic</ItalicFontName>
+    <BoldItalicFontName>OpenSans_SemiCondensed-MediumItalic</BoldItalicFontName>
+    <DisplayEnergyStreamPowerValue>true</DisplayEnergyStreamPowerValue>
+    <DisplayMaterialStreamMassFlowValue>false</DisplayMaterialStreamMassFlowValue>
+    <DisplayMaterialStreamMolarFlowValue>false</DisplayMaterialStreamMolarFlowValue>
+    <DisplayMaterialStreamVolFlowValue>false</DisplayMaterialStreamVolFlowValue>
+    <DisplayMaterialStreamTemperatureValue>false</DisplayMaterialStreamTemperatureValue>
+    <DisplayMaterialStreamPressureValue>false</DisplayMaterialStreamPressureValue>
+    <DisplayMaterialStreamEnergyFlowValue>false</DisplayMaterialStreamEnergyFlowValue>
+    <AddObjectsWithStreams>2</AddObjectsWithStreams>
+    <DisplayDynamicPropertyValues>true</DisplayDynamicPropertyValues>
+    <CurrentWeather>
+      <Type>DWSIM.SharedClasses.WeatherData</Type>
+      <CurrentCondition>Sunny</CurrentCondition>
+      <WindSpeed_km_h>5</WindSpeed_km_h>
+      <RelativeHumidity_pct>30</RelativeHumidity_pct>
+      <Temperature_C>30</Temperature_C>
+      <SolarIrradiation_kWh_m2>1</SolarIrradiation_kWh_m2>
+      <Latitude>0</Latitude>
+      <Longitude>0</Longitude>
+      <AtmosphericPressure_Pa>101325</AtmosphericPressure_Pa>
+    </CurrentWeather>
+    <VisibleProperties>
+      <ObjectType Value="AbsorptionColumn">
+        <PropertyID Value="PROP_AC_0" />
+        <PropertyID Value="PROP_AC_1" />
+        <PropertyID Value="PROP_AC_2" />
+      </ObjectType>
+      <ObjectType Value="Adjust">
+        <PropertyID Value="MinVal" />
+        <PropertyID Value="MaxVal" />
+        <PropertyID Value="AdjustValue" />
+        <PropertyID Value="Tolerance" />
+        <PropertyID Value="StepSize" />
+        <PropertyID Value="MaximumIterations" />
+      </ObjectType>
+      <ObjectType Value="AnalogGauge" />
+      <ObjectType Value="CapeOpenUO" />
+      <ObjectType Value="ComponentSeparator">
+        <PropertyID Value="PROP_CP_0" />
+        <PropertyID Value="SpecifiedStreamIndex" />
+      </ObjectType>
+      <ObjectType Value="Compressor">
+        <PropertyID Value="PROP_CO_0" />
+        <PropertyID Value="PROP_CO_1" />
+        <PropertyID Value="PROP_CO_2" />
+        <PropertyID Value="PROP_CO_3" />
+        <PropertyID Value="PROP_CO_4" />
+        <PropertyID Value="PolytropicEfficiency" />
+        <PropertyID Value="AdiabaticCoefficient" />
+        <PropertyID Value="PolytropicCoefficient" />
+        <PropertyID Value="AdiabaticHead" />
+        <PropertyID Value="PolytropicHead" />
+        <PropertyID Value="RotationSpeed" />
+      </ObjectType>
+      <ObjectType Value="Cooler">
+        <PropertyID Value="Flow Conductance" />
+        <PropertyID Value="Volume" />
+        <PropertyID Value="Minimum Pressure" />
+        <PropertyID Value="Initialize using Inlet Stream" />
+        <PropertyID Value="Reset Content" />
+        <PropertyID Value="PROP_CL_0" />
+        <PropertyID Value="PROP_CL_1" />
+        <PropertyID Value="PROP_CL_2" />
+        <PropertyID Value="PROP_CL_3" />
+        <PropertyID Value="PROP_CL_4" />
+        <PropertyID Value="PROP_CL_5" />
+      </ObjectType>
+      <ObjectType Value="CustomUO" />
+      <ObjectType Value="DigitalGauge" />
+      <ObjectType Value="DistillationColumn">
+        <PropertyID Value="PROP_DC_2" />
+        <PropertyID Value="PROP_DC_5" />
+        <PropertyID Value="PROP_DC_6" />
+        <PropertyID Value="PROP_DC_7" />
+        <PropertyID Value="PROP_DC_8" />
+        <PropertyID Value="Condenser_Specification_Value" />
+        <PropertyID Value="Reboiler_Specification_Value" />
+        <PropertyID Value="Global_Stage_Efficiency" />
+        <PropertyID Value="Condenser_Calculated_Value" />
+        <PropertyID Value="Reboiler_Calculated_Value" />
+      </ObjectType>
+      <ObjectType Value="DummyUnitOperation" />
+      <ObjectType Value="EnergyRecycle">
+        <PropertyID Value="PROP_ER_0" />
+        <PropertyID Value="PROP_ER_1" />
+        <PropertyID Value="PROP_ER_2" />
+      </ObjectType>
+      <ObjectType Value="EnergyStream">
+        <PropertyID Value="PROP_ES_0" />
+      </ObjectType>
+      <ObjectType Value="ExcelUO">
+        <PropertyID Value="Calc_dQ" />
+      </ObjectType>
+      <ObjectType Value="Expander">
+        <PropertyID Value="PROP_TU_0" />
+        <PropertyID Value="PROP_TU_1" />
+        <PropertyID Value="PROP_TU_2" />
+        <PropertyID Value="PROP_TU_3" />
+        <PropertyID Value="PROP_TU_4" />
+        <PropertyID Value="PolytropicEfficiency" />
+        <PropertyID Value="AdiabaticCoefficient" />
+        <PropertyID Value="PolytropicCoefficient" />
+        <PropertyID Value="AdiabaticHead" />
+        <PropertyID Value="PolytropicHead" />
+        <PropertyID Value="RotationSpeed" />
+      </ObjectType>
+      <ObjectType Value="Filter">
+        <PropertyID Value="PROP_FT_0" />
+        <PropertyID Value="PROP_FT_1" />
+        <PropertyID Value="PROP_FT_2" />
+        <PropertyID Value="PROP_FT_3" />
+        <PropertyID Value="PROP_FT_4" />
+        <PropertyID Value="PROP_FT_5" />
+        <PropertyID Value="PROP_FT_6" />
+        <PropertyID Value="PROP_FT_7" />
+      </ObjectType>
+      <ObjectType Value="Flowsheet" />
+      <ObjectType Value="Heater">
+        <PropertyID Value="Flow Conductance" />
+        <PropertyID Value="Volume" />
+        <PropertyID Value="Minimum Pressure" />
+        <PropertyID Value="Initialize using Inlet Stream" />
+        <PropertyID Value="Reset Content" />
+        <PropertyID Value="PROP_HT_0" />
+        <PropertyID Value="PROP_HT_1" />
+        <PropertyID Value="PROP_HT_2" />
+        <PropertyID Value="PROP_HT_3" />
+        <PropertyID Value="PROP_HT_4" />
+        <PropertyID Value="PROP_HT_5" />
+      </ObjectType>
+      <ObjectType Value="HeatExchanger">
+        <PropertyID Value="PROP_HX_0" />
+        <PropertyID Value="PROP_HX_1" />
+        <PropertyID Value="PROP_HX_2" />
+        <PropertyID Value="PROP_HX_3" />
+        <PropertyID Value="PROP_HX_4" />
+        <PropertyID Value="PROP_HX_25" />
+        <PropertyID Value="PROP_HX_26" />
+        <PropertyID Value="PROP_HX_27" />
+        <PropertyID Value="PROP_HX_28" />
+        <PropertyID Value="PROP_HX_32" />
+        <PropertyID Value="PROP_HX_33" />
+      </ObjectType>
+      <ObjectType Value="Input" />
+      <ObjectType Value="LevelGauge" />
+      <ObjectType Value="MaterialStream">
+        <PropertyID Value="PROP_MS_0" />
+        <PropertyID Value="PROP_MS_1" />
+        <PropertyID Value="PROP_MS_2" />
+        <PropertyID Value="PROP_MS_3" />
+        <PropertyID Value="PROP_MS_4" />
+        <PropertyID Value="PROP_MS_9" />
+        <PropertyID Value="PROP_MS_10" />
+        <PropertyID Value="PROP_MS_27" />
+        <PropertyID Value="PROP_MS_130" />
+        <PropertyID Value="PROP_MS_154" />
+      </ObjectType>
+      <ObjectType Value="Mixer" />
+      <ObjectType Value="OrificePlate">
+        <PropertyID Value="PROP_OP_0" />
+        <PropertyID Value="PROP_OP_1" />
+        <PropertyID Value="PROP_OP_2" />
+        <PropertyID Value="PROP_OP_3" />
+        <PropertyID Value="PROP_OP_4" />
+        <PropertyID Value="PROP_OP_5" />
+        <PropertyID Value="PROP_OP_6" />
+        <PropertyID Value="PROP_OP_7" />
+      </ObjectType>
+      <ObjectType Value="PIDController">
+        <PropertyID Value="Active" />
+        <PropertyID Value="ManualOverride" />
+        <PropertyID Value="LastError" />
+        <PropertyID Value="CurrentError" />
+        <PropertyID Value="CumulativeError" />
+        <PropertyID Value="SetPointAbs" />
+        <PropertyID Value="Kp" />
+        <PropertyID Value="Ki" />
+        <PropertyID Value="Kd" />
+        <PropertyID Value="Output" />
+        <PropertyID Value="OutputMin" />
+        <PropertyID Value="OutputMax" />
+        <PropertyID Value="OutputAbs" />
+      </ObjectType>
+      <ObjectType Value="Pipe">
+        <PropertyID Value="PROP_PS_0" />
+        <PropertyID Value="PressureDropStatic" />
+        <PropertyID Value="PressureDropFriction" />
+        <PropertyID Value="PROP_PS_1" />
+        <PropertyID Value="PROP_PS_2" />
+        <PropertyID Value="PROP_PS_8" />
+        <PropertyID Value="PROP_PS_9" />
+      </ObjectType>
+      <ObjectType Value="Pump">
+        <PropertyID Value="PROP_PU_0" />
+        <PropertyID Value="PROP_PU_1" />
+        <PropertyID Value="PROP_PU_2" />
+        <PropertyID Value="PROP_PU_3" />
+        <PropertyID Value="PROP_PU_4" />
+        <PropertyID Value="PROP_PU_5" />
+      </ObjectType>
+      <ObjectType Value="Reactor_Conversion">
+        <PropertyID Value="Operating Pressure (Dynamics)" />
+        <PropertyID Value="Liquid Level" />
+        <PropertyID Value="Volume" />
+        <PropertyID Value="Height" />
+        <PropertyID Value="Minimum Pressure" />
+        <PropertyID Value="Initialize using Inlet Stream" />
+        <PropertyID Value="Reset Contents" />
+        <PropertyID Value="PROP_CR_0" />
+        <PropertyID Value="Calculation Mode" />
+      </ObjectType>
+      <ObjectType Value="Reactor_CSTR">
+        <PropertyID Value="Operating Pressure" />
+        <PropertyID Value="Liquid Level" />
+        <PropertyID Value="Height" />
+        <PropertyID Value="Minimum Pressure" />
+        <PropertyID Value="Initialize using Inlet Stream" />
+        <PropertyID Value="Reset Contents" />
+        <PropertyID Value="PROP_CS_0" />
+        <PropertyID Value="PROP_CS_1" />
+        <PropertyID Value="PROP_CS_2" />
+        <PropertyID Value="PROP_CS_3" />
+        <PropertyID Value="PROP_CS_4" />
+        <PropertyID Value="PROP_CS_5" />
+        <PropertyID Value="PROP_CS_6" />
+        <PropertyID Value="PROP_CS_7" />
+        <PropertyID Value="Calculation Mode" />
+      </ObjectType>
+      <ObjectType Value="Reactor_Equilibrium">
+        <PropertyID Value="Operating Pressure (Dynamics)" />
+        <PropertyID Value="Liquid Level" />
+        <PropertyID Value="Volume" />
+        <PropertyID Value="Height" />
+        <PropertyID Value="Minimum Pressure" />
+        <PropertyID Value="Initialize using Inlet Stream" />
+        <PropertyID Value="Reset Contents" />
+        <PropertyID Value="PROP_EQ_0" />
+        <PropertyID Value="PROP_EQ_1" />
+        <PropertyID Value="Calculation Mode" />
+        <PropertyID Value="Initial Gibbs Energy" />
+        <PropertyID Value="Final Gibbs Energy" />
+      </ObjectType>
+      <ObjectType Value="Reactor_Gibbs">
+        <PropertyID Value="Operating Pressure (Dynamics)" />
+        <PropertyID Value="Liquid Level" />
+        <PropertyID Value="Volume" />
+        <PropertyID Value="Height" />
+        <PropertyID Value="Minimum Pressure" />
+        <PropertyID Value="Initialize using Inlet Stream" />
+        <PropertyID Value="Reset Contents" />
+        <PropertyID Value="PROP_GR_0" />
+        <PropertyID Value="PROP_GR_1" />
+        <PropertyID Value="Calculation Mode" />
+        <PropertyID Value="Initial Gibbs Energy" />
+        <PropertyID Value="Final Gibbs Energy" />
+        <PropertyID Value="Element Balance Residue" />
+      </ObjectType>
+      <ObjectType Value="Reactor_PFR">
+        <PropertyID Value="Max Sections" />
+        <PropertyID Value="Reset Contents" />
+        <PropertyID Value="PROP_PF_0" />
+        <PropertyID Value="PROP_PF_1" />
+        <PropertyID Value="PROP_PF_2" />
+        <PropertyID Value="PROP_PF_3" />
+        <PropertyID Value="PROP_PF_4" />
+        <PropertyID Value="PROP_PF_5" />
+        <PropertyID Value="PROP_PF_6" />
+        <PropertyID Value="PROP_PF_7" />
+        <PropertyID Value="PROP_PF_8" />
+        <PropertyID Value="PROP_PF_9" />
+        <PropertyID Value="PROP_PF_10" />
+        <PropertyID Value="Calculation Mode" />
+      </ObjectType>
+      <ObjectType Value="ReboiledAbsorber">
+        <PropertyID Value="PROP_RA_0" />
+        <PropertyID Value="PROP_RA_1" />
+        <PropertyID Value="PROP_RA_2" />
+        <PropertyID Value="PROP_RA_3" />
+        <PropertyID Value="PROP_RA_4" />
+      </ObjectType>
+      <ObjectType Value="Recycle">
+        <PropertyID Value="PROP_RY_0" />
+        <PropertyID Value="PROP_RY_1" />
+        <PropertyID Value="PROP_RY_2" />
+        <PropertyID Value="PROP_RY_3" />
+        <PropertyID Value="PROP_RY_4" />
+        <PropertyID Value="PROP_RY_5" />
+        <PropertyID Value="PROP_RY_6" />
+      </ObjectType>
+      <ObjectType Value="RefluxedAbsorber">
+        <PropertyID Value="PROP_RF_0" />
+        <PropertyID Value="PROP_RF_1" />
+        <PropertyID Value="PROP_RF_2" />
+        <PropertyID Value="PROP_RF_3" />
+        <PropertyID Value="PROP_RF_4" />
+        <PropertyID Value="PROP_RF_5" />
+        <PropertyID Value="PROP_RF_6" />
+      </ObjectType>
+      <ObjectType Value="ShortcutColumn">
+        <PropertyID Value="PROP_SC_0" />
+        <PropertyID Value="PROP_SC_1" />
+        <PropertyID Value="PROP_SC_2" />
+        <PropertyID Value="PROP_SC_3" />
+        <PropertyID Value="PROP_SC_4" />
+        <PropertyID Value="PROP_SC_5" />
+        <PropertyID Value="PROP_SC_6" />
+        <PropertyID Value="PROP_SC_7" />
+        <PropertyID Value="PROP_SC_8" />
+        <PropertyID Value="PROP_SC_9" />
+        <PropertyID Value="PROP_SC_10" />
+        <PropertyID Value="PROP_SC_11" />
+        <PropertyID Value="PROP_SC_12" />
+        <PropertyID Value="PROP_SC_13" />
+        <PropertyID Value="PROP_SC_14" />
+      </ObjectType>
+      <ObjectType Value="SolidsSeparator">
+        <PropertyID Value="PROP_SS_1" />
+        <PropertyID Value="PROP_SS_2" />
+      </ObjectType>
+      <ObjectType Value="Spec">
+        <PropertyID Value="SpecMin" />
+        <PropertyID Value="SpecMax" />
+        <PropertyID Value="Expression" />
+      </ObjectType>
+      <ObjectType Value="Splitter">
+        <PropertyID Value="PROP_SP_1" />
+        <PropertyID Value="PROP_SP_2" />
+      </ObjectType>
+      <ObjectType Value="Switch" />
+      <ObjectType Value="Tank">
+        <PropertyID Value="Liquid Level" />
+        <PropertyID Value="Height" />
+        <PropertyID Value="Initialize using Inlet Stream" />
+        <PropertyID Value="Reset Content" />
+        <PropertyID Value="PROP_TK_0" />
+        <PropertyID Value="PROP_TK_1" />
+        <PropertyID Value="PROP_TK_2" />
+      </ObjectType>
+      <ObjectType Value="Valve">
+        <PropertyID Value="PROP_VA_0" />
+        <PropertyID Value="PROP_VA_1" />
+        <PropertyID Value="PROP_VA_2" />
+        <PropertyID Value="PROP_VA_3" />
+        <PropertyID Value="PROP_VA_4" />
+        <PropertyID Value="PROP_VA_5" />
+      </ObjectType>
+      <ObjectType Value="Vessel">
+        <PropertyID Value="Vessel Orientation" />
+        <PropertyID Value="Operating Pressure" />
+        <PropertyID Value="Liquid Level" />
+        <PropertyID Value="Volume" />
+        <PropertyID Value="Height" />
+        <PropertyID Value="Minimum Pressure" />
+        <PropertyID Value="Initialize using Inlet Stream" />
+        <PropertyID Value="Reset Content" />
+        <PropertyID Value="PROP_SV_0" />
+        <PropertyID Value="PROP_SV_1" />
+      </ObjectType>
+      <ObjectType Value="AirCooler2">
+        <PropertyID Value="Outlet Temperature" />
+        <PropertyID Value="Overall UA" />
+        <PropertyID Value="Heat Load" />
+        <PropertyID Value="Electrical Power Load" />
+        <PropertyID Value="Actual Air Flow" />
+        <PropertyID Value="Air Inlet Temperature" />
+        <PropertyID Value="Air Outlet Temperature" />
+        <PropertyID Value="Max Heat Exchange" />
+        <PropertyID Value="Exchanger Efficiency" />
+      </ObjectType>
+      <ObjectType Value="EnergyMixer" />
+      <ObjectType Value="HydroelectricTurbine">
+        <PropertyID Value="Efficiency" />
+        <PropertyID Value="Static Head" />
+        <PropertyID Value="Velocity Head" />
+        <PropertyID Value="Total Head" />
+        <PropertyID Value="Inlet Velocity" />
+        <PropertyID Value="Outlet Velocity" />
+        <PropertyID Value="Generated Power" />
+      </ObjectType>
+      <ObjectType Value="PEMFC_Amphlett">
+        <PropertyID Value="i-start" />
+        <PropertyID Value="i-stop" />
+        <PropertyID Value="i-step" />
+        <PropertyID Value="A" />
+        <PropertyID Value="l" />
+        <PropertyID Value="lambda" />
+        <PropertyID Value="R" />
+        <PropertyID Value="JMax" />
+        <PropertyID Value="N" />
+      </ObjectType>
+      <ObjectType Value="SolarPanel">
+        <PropertyID Value="Efficiency" />
+        <PropertyID Value="User-Defined Solar Irradiation" />
+        <PropertyID Value="Actual Solar Irradiation" />
+        <PropertyID Value="Panel Area" />
+        <PropertyID Value="Number of Panels" />
+        <PropertyID Value="Generated Power" />
+      </ObjectType>
+      <ObjectType Value="WaterElectrolyzer">
+        <PropertyID Value="Voltage" />
+        <PropertyID Value="Number of Cells" />
+        <PropertyID Value="Cell Voltage" />
+        <PropertyID Value="Waste Heat" />
+        <PropertyID Value="Current" />
+        <PropertyID Value="Electron Transfer" />
+      </ObjectType>
+      <ObjectType Value="WindTurbine">
+        <PropertyID Value="Efficiency" />
+        <PropertyID Value="User-Defined Wind Speed" />
+        <PropertyID Value="Actual Wind Speed" />
+        <PropertyID Value="User-Defined Air Temperature" />
+        <PropertyID Value="Actual Air Temperature" />
+        <PropertyID Value="User-Defined Air Pressure" />
+        <PropertyID Value="Actual Air Pressure" />
+        <PropertyID Value="User-Defined Relative Humidity" />
+        <PropertyID Value="Actual Relative Humidity" />
+        <PropertyID Value="Disk Area" />
+        <PropertyID Value="Rotor Diameter" />
+        <PropertyID Value="Number of Units" />
+        <PropertyID Value="Generated Power" />
+        <PropertyID Value="Maximum Theoretical Power" />
+        <PropertyID Value="Calculated Air Density" />
+      </ObjectType>
+      <ObjectType Value="Reactor_ReaktoroGibbs" />
+    </VisibleProperties>
+  </Settings>
+  <DynamicProperties />
+  <GraphicObjects>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Shapes.MaterialStreamGraphic</Type>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>1</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#ff4682b4</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>true</Fill>
+      <FillColor>#ffffffff</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>true</Calculated>
+      <Active>true</Active>
+      <Description>Material Stream</Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>false</IsEnergyStream>
+      <ObjectType>MaterialStream</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>Calculated</Status>
+      <AutoSize>false</AutoSize>
+      <Height>20</Height>
+      <IsConnector>false</IsConnector>
+      <Name>MAT-e72b3176-5e3e-4c41-80af-b13caaea5e65</Name>
+      <Tag>Feed</Tag>
+      <Width>20</Width>
+      <X>58.92406</X>
+      <Y>91.69277</Y>
+      <Selected>false</Selected>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <InputConnectors>
+        <Connector IsAttached="false" />
+      </InputConnectors>
+      <OutputConnectors>
+        <Connector IsAttached="true" ConnType="ConOut" AttachedToObjID="PFR-1d30a320-4431-4620-b68c-13f93bee9785" AttachedToConnIndex="0" AttachedToEnergyConn="False" />
+      </OutputConnectors>
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+    </GraphicObject>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Shapes.PFRGraphic</Type>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>1</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#ff4682b4</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>true</Fill>
+      <FillColor>#ffffffff</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>true</Calculated>
+      <Active>true</Active>
+      <Description>PFR</Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>false</IsEnergyStream>
+      <ObjectType>RCT_PFR</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>Calculated</Status>
+      <AutoSize>false</AutoSize>
+      <Height>20</Height>
+      <IsConnector>false</IsConnector>
+      <Name>PFR-1d30a320-4431-4620-b68c-13f93bee9785</Name>
+      <Tag>Reactor</Tag>
+      <Width>70</Width>
+      <X>165.4868</X>
+      <Y>89.61185</Y>
+      <Selected>false</Selected>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <InputConnectors>
+        <Connector IsAttached="true" ConnType="ConIn" AttachedFromObjID="MAT-e72b3176-5e3e-4c41-80af-b13caaea5e65" AttachedFromConnIndex="0" AttachedFromEnergyConn="False" />
+        <Connector IsAttached="true" ConnType="ConEn" AttachedFromObjID="EN-00580332-cd1e-4cd0-b9e0-9c8267c5576a" AttachedFromConnIndex="0" AttachedFromEnergyConn="True" />
+      </InputConnectors>
+      <OutputConnectors>
+        <Connector IsAttached="true" ConnType="ConOut" AttachedToObjID="MAT-4a4ba6c0-4c2a-4541-8969-c4feccf49729" AttachedToConnIndex="0" AttachedToEnergyConn="False" />
+      </OutputConnectors>
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+    </GraphicObject>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Shapes.EnergyStreamGraphic</Type>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>1</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#ff4682b4</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>true</Fill>
+      <FillColor>#ffd3d3d3</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>true</Calculated>
+      <Active>true</Active>
+      <Description>Energy Stream</Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>true</IsEnergyStream>
+      <ObjectType>EnergyStream</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>Calculated</Status>
+      <AutoSize>false</AutoSize>
+      <Height>20</Height>
+      <IsConnector>false</IsConnector>
+      <Name>EN-00580332-cd1e-4cd0-b9e0-9c8267c5576a</Name>
+      <Tag>Energy</Tag>
+      <Width>20</Width>
+      <X>105.4868</X>
+      <Y>169.6118</Y>
+      <Selected>false</Selected>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <InputConnectors>
+        <Connector IsAttached="false" />
+      </InputConnectors>
+      <OutputConnectors>
+        <Connector IsAttached="true" ConnType="ConOut" AttachedToObjID="PFR-1d30a320-4431-4620-b68c-13f93bee9785" AttachedToConnIndex="1" AttachedToEnergyConn="False" />
+      </OutputConnectors>
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+    </GraphicObject>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Shapes.MaterialStreamGraphic</Type>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>1</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#ff4682b4</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>true</Fill>
+      <FillColor>#ffffffff</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>true</Calculated>
+      <Active>true</Active>
+      <Description>Material Stream</Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>false</IsEnergyStream>
+      <ObjectType>MaterialStream</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>Calculated</Status>
+      <AutoSize>false</AutoSize>
+      <Height>20</Height>
+      <IsConnector>false</IsConnector>
+      <Name>MAT-4a4ba6c0-4c2a-4541-8969-c4feccf49729</Name>
+      <Tag>Outlet</Tag>
+      <Width>20</Width>
+      <X>296.5394</X>
+      <Y>89.61185</Y>
+      <Selected>false</Selected>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <InputConnectors>
+        <Connector IsAttached="true" ConnType="ConIn" AttachedFromObjID="PFR-1d30a320-4431-4620-b68c-13f93bee9785" AttachedFromConnIndex="0" AttachedFromEnergyConn="False" />
+      </InputConnectors>
+      <OutputConnectors>
+        <Connector IsAttached="false" />
+      </OutputConnectors>
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+    </GraphicObject>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Tables.TableGraphic</Type>
+      <Padding>4</Padding>
+      <TextColor>#ff000000</TextColor>
+      <BorderColor>#ff000000</BorderColor>
+      <TextColorDark>#fff5f5f5</TextColorDark>
+      <BorderColorDark>#fff5f5f5</BorderColorDark>
+      <HeaderText>PROPERTIES TABLE</HeaderText>
+      <ClipboardData>PROPERTIES TABLE
+Reactor	Pressure Drop	0.0720259	bar
+Reactor	Residence time	0.0243561	h
+Reactor	Volume	1.5	m3
+Reactor	Temperature delta	486.068	C.
+Reactor	Hydrogen: Conversion	80.2922	%
+Reactor	Nitrogen: Conversion	26.7641	%
+Outlet	Temperature	786.068	C
+Outlet	Pressure	202.578	bar
+Outlet	Molar Flow	175.595	kmol/h
+Outlet	Molar Fraction (Mixture) / Hydrogen	0.13455	
+Outlet	Molar Fraction (Mixture) / Nitrogen	0.5	
+Outlet	Molar Fraction (Mixture) / Ammonia	0.36545	
+</ClipboardData>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>1</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#fffa8072</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>false</Fill>
+      <FillColor>#ffd3d3d3</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>false</Calculated>
+      <Active>true</Active>
+      <Description></Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>false</IsEnergyStream>
+      <ObjectType>GO_Table</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>NotCalculated</Status>
+      <AutoSize>true</AutoSize>
+      <Height>234</Height>
+      <IsConnector>false</IsConnector>
+      <Name>PROPERTYTABLE-eb63468b-4a71-4dfe-90c5-e6df0d62b5c1</Name>
+      <Tag>PROPERTYTABLE-d58132c7-e45d-409b-8a84-cf96af0ba1ae</Tag>
+      <Width>301</Width>
+      <X>350.8553</X>
+      <Y>15.55921</Y>
+      <Selected>false</Selected>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <InputConnectors />
+      <OutputConnectors />
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+      <VisibleProperties>
+        <Object Value="PFR-1d30a320-4431-4620-b68c-13f93bee9785">
+          <PropertyID Value="PROP_PF_0" />
+          <PropertyID Value="PROP_PF_1" />
+          <PropertyID Value="PROP_PF_2" />
+          <PropertyID Value="PROP_PF_7" />
+          <PropertyID Value="Hydrogen: Conversion" />
+          <PropertyID Value="Nitrogen: Conversion" />
+        </Object>
+        <Object Value="MAT-4a4ba6c0-4c2a-4541-8969-c4feccf49729">
+          <PropertyID Value="PROP_MS_0" />
+          <PropertyID Value="PROP_MS_1" />
+          <PropertyID Value="PROP_MS_3" />
+          <PropertyID Value="PROP_MS_102/Hydrogen" />
+          <PropertyID Value="PROP_MS_102/Nitrogen" />
+          <PropertyID Value="PROP_MS_102/Ammonia" />
+        </Object>
+      </VisibleProperties>
+    </GraphicObject>
+  </GraphicObjects>
+  <PropertyPackages>
+    <PropertyPackage>
+      <ID>PP-1ca89469-fb79-4996-9db7-eb57511e291f</ID>
+      <Type>DWSIM.Thermodynamics.PropertyPackages.ChaoSeaderPropertyPackage</Type>
+      <ComponentName>Chao-Seader</ComponentName>
+      <ComponentDescription>Uses the empirical model of Chao and Seader for the calculation of VLE K-values. All other thermodynamic properties are calculated by the Lee-Kesler model.</ComponentDescription>
+      <Tag>Chao-Seader (1)</Tag>
+      <SingleCompoundCheckThreshold>0.99999</SingleCompoundCheckThreshold>
+      <OverrideKvalFugCoeff>false</OverrideKvalFugCoeff>
+      <OverrideEnthalpyCalculation>false</OverrideEnthalpyCalculation>
+      <OverrideEntropyCalculation>false</OverrideEntropyCalculation>
+      <LiquidDensityCalculationMode_Subcritical>Rackett_and_ExpData</LiquidDensityCalculationMode_Subcritical>
+      <LiquidDensityCalculationMode_Supercritical>Rackett_and_ExpData</LiquidDensityCalculationMode_Supercritical>
+      <LiquidDensity_CorrectExpDataForPressure>true</LiquidDensity_CorrectExpDataForPressure>
+      <LiquidDensity_UsePenelouxVolumeTranslation>true</LiquidDensity_UsePenelouxVolumeTranslation>
+      <LiquidViscosityCalculationMode_Subcritical>ExpData</LiquidViscosityCalculationMode_Subcritical>
+      <LiquidViscosityCalculationMode_Supercritical>Letsou_Stiel</LiquidViscosityCalculationMode_Supercritical>
+      <LiquidViscosity_CorrectExpDataForPressure>true</LiquidViscosity_CorrectExpDataForPressure>
+      <LiquidViscosity_MixingRule>MoleAverage</LiquidViscosity_MixingRule>
+      <VaporPhaseFugacityCalculationMode>Ideal</VaporPhaseFugacityCalculationMode>
+      <SolidPhaseFugacityCalculationMethod>FromLiquidFugacity</SolidPhaseFugacityCalculationMethod>
+      <SolidPhaseFugacity_UseIdealLiquidPhaseFugacity>false</SolidPhaseFugacity_UseIdealLiquidPhaseFugacity>
+      <SolidPhaseEnthalpy_UsesCp>false</SolidPhaseEnthalpy_UsesCp>
+      <EnthalpyEntropyCpCvCalculationMode>LeeKesler</EnthalpyEntropyCpCvCalculationMode>
+      <LiquidFugacity_UsePoyntingCorrectionFactor>true</LiquidFugacity_UsePoyntingCorrectionFactor>
+      <ActivityCoefficientModels_IgnoreMissingInteractionParameters>false</ActivityCoefficientModels_IgnoreMissingInteractionParameters>
+      <IgnoreVaporFractionLimit>false</IgnoreVaporFractionLimit>
+      <IgnoreSalinityLimit>false</IgnoreSalinityLimit>
+      <CalculateAdditionalMaterialStreamProperties>true</CalculateAdditionalMaterialStreamProperties>
+      <FlashCalculationApproach>NestedLoops</FlashCalculationApproach>
+      <ForcedSolids>[]</ForcedSolids>
+      <PropertyOverrides>{}</PropertyOverrides>
+      <FlashSettings>
+        <Setting Name="Replace_PTFlash" Value="False" />
+        <Setting Name="ValidateEquilibriumCalc" Value="False" />
+        <Setting Name="UsePhaseIdentificationAlgorithm" Value="False" />
+        <Setting Name="CalculateBubbleAndDewPoints" Value="False" />
+        <Setting Name="ValidationGibbsTolerance" Value="0.01" />
+        <Setting Name="PHFlash_Maximum_Number_Of_External_Iterations" Value="100" />
+        <Setting Name="PHFlash_External_Loop_Tolerance" Value="0.0001" />
+        <Setting Name="PHFlash_Maximum_Number_Of_Internal_Iterations" Value="100" />
+        <Setting Name="PHFlash_Internal_Loop_Tolerance" Value="0.0001" />
+        <Setting Name="PTFlash_Maximum_Number_Of_External_Iterations" Value="100" />
+        <Setting Name="PTFlash_External_Loop_Tolerance" Value="0.0001" />
+        <Setting Name="PTFlash_Maximum_Number_Of_Internal_Iterations" Value="100" />
+        <Setting Name="PTFlash_Internal_Loop_Tolerance" Value="0.0001" />
+        <Setting Name="NL_FastMode" Value="True" />
+        <Setting Name="IO_FastMode" Value="True" />
+        <Setting Name="GM_OptimizationMethod" Value="IPOPT" />
+        <Setting Name="ThreePhaseFlashStabTestSeverity" Value="0" />
+        <Setting Name="ThreePhaseFlashStabTestCompIds" Value="" />
+        <Setting Name="PVFlash_FixedDampingFactor" Value="1.0" />
+        <Setting Name="PVFlash_MaximumTemperatureChange" Value="10.0" />
+        <Setting Name="PVFlash_TemperatureDerivativeEpsilon" Value="0.1" />
+        <Setting Name="ST_Number_of_Random_Tries" Value="20" />
+        <Setting Name="CheckIncipientLiquidForStability" Value="False" />
+        <Setting Name="PHFlash_MaximumTemperatureChange" Value="30.0" />
+        <Setting Name="PTFlash_DampingFactor" Value="1.0" />
+        <Setting Name="ForceEquilibriumCalculationType" Value="Default" />
+        <Setting Name="ImmiscibleWaterOption" Value="False" />
+        <Setting Name="HandleSolidsInDefaultEqCalcMode" Value="False" />
+        <Setting Name="UseIOFlash" Value="False" />
+        <Setting Name="GibbsMinimizationExternalSolver" Value="" />
+        <Setting Name="GibbsMinimizationExternalSolverConfigData" Value="" />
+        <Setting Name="PHFlash_Use_Interpolated_Result_In_Oscillating_Temperature_Cases" Value="False" />
+        <Setting Name="PVFlash_TryIdealCalcOnFailure" Value="True" />
+      </FlashSettings>
+    </PropertyPackage>
+  </PropertyPackages>
+  <Compounds>
+    <Compound>
+      <Type>DWSIM.Thermodynamics.BaseClasses.ConstantProperties</Type>
+      <Acentric_Factor>-0.215993</Acentric_Factor>
+      <BO_BSW>0</BO_BSW>
+      <BO_GOR>0</BO_GOR>
+      <BO_OilVisc1>0</BO_OilVisc1>
+      <BO_OilVisc2>0</BO_OilVisc2>
+      <BO_OilViscTemp1>0</BO_OilViscTemp1>
+      <BO_OilViscTemp2>0</BO_OilViscTemp2>
+      <BO_PNA_A>0</BO_PNA_A>
+      <BO_PNA_N>0</BO_PNA_N>
+      <BO_PNA_P>0</BO_PNA_P>
+      <BO_SGG>0</BO_SGG>
+      <BO_SGO>0</BO_SGO>
+      <CAS_Number>1333-74-0</CAS_Number>
+      <Chao_Seader_Acentricity>0</Chao_Seader_Acentricity>
+      <Chao_Seader_Liquid_Molar_Volume>31</Chao_Seader_Liquid_Molar_Volume>
+      <Chao_Seader_Solubility_Parameter>0.00158781835225</Chao_Seader_Solubility_Parameter>
+      <Charge>0</Charge>
+      <ChemicalStructure></ChemicalStructure>
+      <Comments></Comments>
+      <CompCreatorStudyFile></CompCreatorStudyFile>
+      <Critical_Compressibility>0.305</Critical_Compressibility>
+      <Critical_Pressure>1313000</Critical_Pressure>
+      <Critical_Temperature>33.19</Critical_Temperature>
+      <Critical_Volume>0.064147</Critical_Volume>
+      <CurrentDB>ChemSep</CurrentDB>
+      <Dipole_Moment>0</Dipole_Moment>
+      <Electrolyte_Cp0>0</Electrolyte_Cp0>
+      <Electrolyte_DelGF>0</Electrolyte_DelGF>
+      <Electrolyte_DelHF>0</Electrolyte_DelHF>
+      <EnthalpyOfFusionAtTf>0.1171</EnthalpyOfFusionAtTf>
+      <Formula>H2</Formula>
+      <HVap_A>1534700</HVap_A>
+      <HVap_B>3.214</HVap_B>
+      <HVap_C>-8.4567</HVap_C>
+      <HVap_D>8.4646</HVap_D>
+      <HVap_E>-2.8057</HVap_E>
+      <HVap_TMAX>32.62</HVap_TMAX>
+      <HVap_TMIN>13.95</HVap_TMIN>
+      <HydrationNumber>0</HydrationNumber>
+      <ID>902</ID>
+      <Ideal_Gas_Heat_Capacity_Const_A>3994.325</Ideal_Gas_Heat_Capacity_Const_A>
+      <Ideal_Gas_Heat_Capacity_Const_B>-48.69006</Ideal_Gas_Heat_Capacity_Const_B>
+      <Ideal_Gas_Heat_Capacity_Const_C>10.36209</Ideal_Gas_Heat_Capacity_Const_C>
+      <Ideal_Gas_Heat_Capacity_Const_D>-0.000340144</Ideal_Gas_Heat_Capacity_Const_D>
+      <Ideal_Gas_Heat_Capacity_Const_E>1.960333E-07</Ideal_Gas_Heat_Capacity_Const_E>
+      <IdealgasCpEquation>16</IdealgasCpEquation>
+      <IG_Enthalpy_of_Formation_25C>0</IG_Enthalpy_of_Formation_25C>
+      <IG_Entropy_of_Formation_25C>0</IG_Entropy_of_Formation_25C>
+      <IG_Gibbs_Energy_of_Formation_25C>0</IG_Gibbs_Energy_of_Formation_25C>
+      <InChI></InChI>
+      <Ion_CpAq_a>0</Ion_CpAq_a>
+      <Ion_CpAq_b>0</Ion_CpAq_b>
+      <Ion_CpAq_c>0</Ion_CpAq_c>
+      <IsBlackOil>false</IsBlackOil>
+      <IsCOOLPROPSupported>true</IsCOOLPROPSupported>
+      <IsFPROPSSupported>false</IsFPROPSSupported>
+      <IsHydratedSalt>false</IsHydratedSalt>
+      <IsHYPO>0</IsHYPO>
+      <IsIon>false</IsIon>
+      <IsModified>false</IsModified>
+      <IsPF>0</IsPF>
+      <IsSalt>false</IsSalt>
+      <Liquid_Density_Const_A>2.9613</Liquid_Density_Const_A>
+      <Liquid_Density_Const_B>0.25981</Liquid_Density_Const_B>
+      <Liquid_Density_Const_C>33.19</Liquid_Density_Const_C>
+      <Liquid_Density_Const_D>0.19104</Liquid_Density_Const_D>
+      <Liquid_Density_Const_E>0</Liquid_Density_Const_E>
+      <Liquid_Density_Tmax>33.18</Liquid_Density_Tmax>
+      <Liquid_Density_Tmin>13.84</Liquid_Density_Tmin>
+      <Liquid_Heat_Capacity_Const_A>14510</Liquid_Heat_Capacity_Const_A>
+      <Liquid_Heat_Capacity_Const_B>-1191.1</Liquid_Heat_Capacity_Const_B>
+      <Liquid_Heat_Capacity_Const_C>156.51</Liquid_Heat_Capacity_Const_C>
+      <Liquid_Heat_Capacity_Const_D>-6.1773</Liquid_Heat_Capacity_Const_D>
+      <Liquid_Heat_Capacity_Const_E>0.087907</Liquid_Heat_Capacity_Const_E>
+      <Liquid_Heat_Capacity_Tmax>32</Liquid_Heat_Capacity_Tmax>
+      <Liquid_Heat_Capacity_Tmin>13.84</Liquid_Heat_Capacity_Tmin>
+      <Liquid_Thermal_Conductivity_Const_A>-0.34238</Liquid_Thermal_Conductivity_Const_A>
+      <Liquid_Thermal_Conductivity_Const_B>-4.3002</Liquid_Thermal_Conductivity_Const_B>
+      <Liquid_Thermal_Conductivity_Const_C>-0.53814</Liquid_Thermal_Conductivity_Const_C>
+      <Liquid_Thermal_Conductivity_Const_D>0.0011639</Liquid_Thermal_Conductivity_Const_D>
+      <Liquid_Thermal_Conductivity_Const_E>-0.00021792</Liquid_Thermal_Conductivity_Const_E>
+      <Liquid_Thermal_Conductivity_Tmax>31</Liquid_Thermal_Conductivity_Tmax>
+      <Liquid_Thermal_Conductivity_Tmin>13.84</Liquid_Thermal_Conductivity_Tmin>
+      <Liquid_Viscosity_Const_A>-32.531</Liquid_Viscosity_Const_A>
+      <Liquid_Viscosity_Const_B>97.304</Liquid_Viscosity_Const_B>
+      <Liquid_Viscosity_Const_C>5.9178</Liquid_Viscosity_Const_C>
+      <Liquid_Viscosity_Const_D>-0.0031563</Liquid_Viscosity_Const_D>
+      <Liquid_Viscosity_Const_E>2</Liquid_Viscosity_Const_E>
+      <LiquidDensityEquation>105</LiquidDensityEquation>
+      <LiquidHeatCapacityEquation>16</LiquidHeatCapacityEquation>
+      <LiquidThermalConductivityEquation>16</LiquidThermalConductivityEquation>
+      <LiquidViscosityEquation>101</LiquidViscosityEquation>
+      <Molar_Weight>2.01588</Molar_Weight>
+      <MolarVolume_k1i>0</MolarVolume_k1i>
+      <MolarVolume_k2i>0</MolarVolume_k2i>
+      <MolarVolume_k3i>0</MolarVolume_k3i>
+      <MolarVolume_v2i>0</MolarVolume_v2i>
+      <MolarVolume_v3i>0</MolarVolume_v3i>
+      <Name>Hydrogen</Name>
+      <NegativeIon></NegativeIon>
+      <NegativeIonStoichCoeff>0</NegativeIonStoichCoeff>
+      <Normal_Boiling_Point>20.39</Normal_Boiling_Point>
+      <OriginalDB>ChemSep</OriginalDB>
+      <PC_SAFT_epsilon_k>0</PC_SAFT_epsilon_k>
+      <PC_SAFT_m>0</PC_SAFT_m>
+      <PC_SAFT_sigma>0</PC_SAFT_sigma>
+      <PositiveIon></PositiveIon>
+      <PositiveIonStoichCoeff>0</PositiveIonStoichCoeff>
+      <PR_Volume_Translation_Coefficient>0</PR_Volume_Translation_Coefficient>
+      <SMILES>[H][H]</SMILES>
+      <Solid_Density_Const_A>0</Solid_Density_Const_A>
+      <Solid_Density_Const_B>0</Solid_Density_Const_B>
+      <Solid_Density_Const_C>0</Solid_Density_Const_C>
+      <Solid_Density_Const_D>0</Solid_Density_Const_D>
+      <Solid_Density_Const_E>0</Solid_Density_Const_E>
+      <Solid_Density_Tmax>0</Solid_Density_Tmax>
+      <Solid_Density_Tmin>0</Solid_Density_Tmin>
+      <Solid_Heat_Capacity_Const_A>5730</Solid_Heat_Capacity_Const_A>
+      <Solid_Heat_Capacity_Const_B>-1.3847E-11</Solid_Heat_Capacity_Const_B>
+      <Solid_Heat_Capacity_Const_C>1.1605E-12</Solid_Heat_Capacity_Const_C>
+      <Solid_Heat_Capacity_Const_D>-1.2321E-13</Solid_Heat_Capacity_Const_D>
+      <Solid_Heat_Capacity_Const_E>4.114E-15</Solid_Heat_Capacity_Const_E>
+      <Solid_Heat_Capacity_Tmax>23.45</Solid_Heat_Capacity_Tmax>
+      <Solid_Heat_Capacity_Tmin>13.95</Solid_Heat_Capacity_Tmin>
+      <SolidDensityAtTs>0</SolidDensityAtTs>
+      <SolidDensityEquation></SolidDensityEquation>
+      <SolidHeatCapacityEquation>100</SolidHeatCapacityEquation>
+      <SolidTs>0</SolidTs>
+      <SRK_Volume_Translation_Coefficient>0</SRK_Volume_Translation_Coefficient>
+      <StandardStateMolarVolume>0</StandardStateMolarVolume>
+      <StoichSum>0</StoichSum>
+      <Surface_Tension_Const_A>-0.003232</Surface_Tension_Const_A>
+      <Surface_Tension_Const_B>1.9865</Surface_Tension_Const_B>
+      <Surface_Tension_Const_C>-5.0915</Surface_Tension_Const_C>
+      <Surface_Tension_Const_D>-0.00046122</Surface_Tension_Const_D>
+      <Surface_Tension_Const_E>-0.00062971</Surface_Tension_Const_E>
+      <Surface_Tension_Tmax>32.18</Surface_Tension_Tmax>
+      <Surface_Tension_Tmin>13.95</Surface_Tension_Tmin>
+      <SurfaceTensionEquation>16</SurfaceTensionEquation>
+      <TemperatureOfFusion>13.95</TemperatureOfFusion>
+      <UNIQUAC_Q>0.5516</UNIQUAC_Q>
+      <UNIQUAC_R>0.4092</UNIQUAC_R>
+      <Vapor_Pressure_Constant_A>13.05</Vapor_Pressure_Constant_A>
+      <Vapor_Pressure_Constant_B>-97.534</Vapor_Pressure_Constant_B>
+      <Vapor_Pressure_Constant_C>1.0355</Vapor_Pressure_Constant_C>
+      <Vapor_Pressure_Constant_D>0.00031816</Vapor_Pressure_Constant_D>
+      <Vapor_Pressure_Constant_E>2</Vapor_Pressure_Constant_E>
+      <Vapor_Pressure_TMAX>33.19</Vapor_Pressure_TMAX>
+      <Vapor_Pressure_TMIN>13.08</Vapor_Pressure_TMIN>
+      <Vapor_Thermal_Conductivity_Const_A>0.0026851</Vapor_Thermal_Conductivity_Const_A>
+      <Vapor_Thermal_Conductivity_Const_B>0.74366</Vapor_Thermal_Conductivity_Const_B>
+      <Vapor_Thermal_Conductivity_Const_C>13.289</Vapor_Thermal_Conductivity_Const_C>
+      <Vapor_Thermal_Conductivity_Const_D>-31.305</Vapor_Thermal_Conductivity_Const_D>
+      <Vapor_Thermal_Conductivity_Const_E>0</Vapor_Thermal_Conductivity_Const_E>
+      <Vapor_Thermal_Conductivity_Tmax>1600</Vapor_Thermal_Conductivity_Tmax>
+      <Vapor_Thermal_Conductivity_Tmin>10</Vapor_Thermal_Conductivity_Tmin>
+      <Vapor_Viscosity_Const_A>1.7916E-07</Vapor_Viscosity_Const_A>
+      <Vapor_Viscosity_Const_B>0.68557</Vapor_Viscosity_Const_B>
+      <Vapor_Viscosity_Const_C>-0.51413</Vapor_Viscosity_Const_C>
+      <Vapor_Viscosity_Const_D>132.61</Vapor_Viscosity_Const_D>
+      <Vapor_Viscosity_Const_E>0</Vapor_Viscosity_Const_E>
+      <Vapor_Viscosity_Tmax>2000</Vapor_Viscosity_Tmax>
+      <Vapor_Viscosity_Tmin>13.95</Vapor_Viscosity_Tmin>
+      <VaporizationEnthalpyEquation>106</VaporizationEnthalpyEquation>
+      <VaporPressureEquation>101</VaporPressureEquation>
+      <VaporThermalConductivityEquation>102</VaporThermalConductivityEquation>
+      <VaporViscosityEquation>102</VaporViscosityEquation>
+      <Z_Rackett>0.3139</Z_Rackett>
+      <FullerDiffusionVolume>6.12</FullerDiffusionVolume>
+      <LennardJonesDiameter>3.105589E-10</LennardJonesDiameter>
+      <LennardJonesEnergy>30.15782</LennardJonesEnergy>
+      <Parachor>0.0061</Parachor>
+      <Tag></Tag>
+      <COSTALD_SRK_Acentric_Factor>-0.2324</COSTALD_SRK_Acentric_Factor>
+      <COSTALD_Characteristic_Volume>0.06424</COSTALD_Characteristic_Volume>
+      <IsSolid>false</IsSolid>
+      <DynamicProperties />
+      <UNIFACGroups />
+      <MODFACGroups />
+      <NISTMODFACGroups />
+      <Elements>
+        <Item Name="H" Value="2" />
+      </Elements>
+    </Compound>
+    <Compound>
+      <Type>DWSIM.Thermodynamics.BaseClasses.ConstantProperties</Type>
+      <Acentric_Factor>0.037</Acentric_Factor>
+      <BO_BSW>0</BO_BSW>
+      <BO_GOR>0</BO_GOR>
+      <BO_OilVisc1>0</BO_OilVisc1>
+      <BO_OilVisc2>0</BO_OilVisc2>
+      <BO_OilViscTemp1>0</BO_OilViscTemp1>
+      <BO_OilViscTemp2>0</BO_OilViscTemp2>
+      <BO_PNA_A>0</BO_PNA_A>
+      <BO_PNA_N>0</BO_PNA_N>
+      <BO_PNA_P>0</BO_PNA_P>
+      <BO_SGG>0</BO_SGG>
+      <BO_SGO>0</BO_SGO>
+      <CAS_Number>7727-37-9</CAS_Number>
+      <Chao_Seader_Acentricity>0.045</Chao_Seader_Acentricity>
+      <Chao_Seader_Liquid_Molar_Volume>34.6723</Chao_Seader_Liquid_Molar_Volume>
+      <Chao_Seader_Solubility_Parameter>0.00216918504124</Chao_Seader_Solubility_Parameter>
+      <Charge>0</Charge>
+      <ChemicalStructure></ChemicalStructure>
+      <Comments></Comments>
+      <CompCreatorStudyFile></CompCreatorStudyFile>
+      <Critical_Compressibility>0.289</Critical_Compressibility>
+      <Critical_Pressure>3398000</Critical_Pressure>
+      <Critical_Temperature>126.2</Critical_Temperature>
+      <Critical_Volume>0.0901</Critical_Volume>
+      <CurrentDB>ChemSep</CurrentDB>
+      <Dipole_Moment>0</Dipole_Moment>
+      <Electrolyte_Cp0>0</Electrolyte_Cp0>
+      <Electrolyte_DelGF>0</Electrolyte_DelGF>
+      <Electrolyte_DelHF>0</Electrolyte_DelHF>
+      <EnthalpyOfFusionAtTf>0.72</EnthalpyOfFusionAtTf>
+      <Formula>N2</Formula>
+      <HVap_A>27284000</HVap_A>
+      <HVap_B>7.8021</HVap_B>
+      <HVap_C>-19.125</HVap_C>
+      <HVap_D>19.518</HVap_D>
+      <HVap_E>-7.5428</HVap_E>
+      <HVap_TMAX>126.26</HVap_TMAX>
+      <HVap_TMIN>63.15</HVap_TMIN>
+      <HydrationNumber>0</HydrationNumber>
+      <ID>905</ID>
+      <Ideal_Gas_Heat_Capacity_Const_A>29103.63</Ideal_Gas_Heat_Capacity_Const_A>
+      <Ideal_Gas_Heat_Capacity_Const_B>-2305.946</Ideal_Gas_Heat_Capacity_Const_B>
+      <Ideal_Gas_Heat_Capacity_Const_C>11.31935</Ideal_Gas_Heat_Capacity_Const_C>
+      <Ideal_Gas_Heat_Capacity_Const_D>-0.00100557</Ideal_Gas_Heat_Capacity_Const_D>
+      <Ideal_Gas_Heat_Capacity_Const_E>1.706099E-07</Ideal_Gas_Heat_Capacity_Const_E>
+      <IdealgasCpEquation>16</IdealgasCpEquation>
+      <IG_Enthalpy_of_Formation_25C>0</IG_Enthalpy_of_Formation_25C>
+      <IG_Entropy_of_Formation_25C>0</IG_Entropy_of_Formation_25C>
+      <IG_Gibbs_Energy_of_Formation_25C>0</IG_Gibbs_Energy_of_Formation_25C>
+      <InChI></InChI>
+      <Ion_CpAq_a>0</Ion_CpAq_a>
+      <Ion_CpAq_b>0</Ion_CpAq_b>
+      <Ion_CpAq_c>0</Ion_CpAq_c>
+      <IsBlackOil>false</IsBlackOil>
+      <IsCOOLPROPSupported>true</IsCOOLPROPSupported>
+      <IsFPROPSSupported>false</IsFPROPSSupported>
+      <IsHydratedSalt>false</IsHydratedSalt>
+      <IsHYPO>0</IsHYPO>
+      <IsIon>false</IsIon>
+      <IsModified>false</IsModified>
+      <IsPF>0</IsPF>
+      <IsSalt>false</IsSalt>
+      <Liquid_Density_Const_A>2.435</Liquid_Density_Const_A>
+      <Liquid_Density_Const_B>0.25137</Liquid_Density_Const_B>
+      <Liquid_Density_Const_C>126.27</Liquid_Density_Const_C>
+      <Liquid_Density_Const_D>0.249</Liquid_Density_Const_D>
+      <Liquid_Density_Const_E>0</Liquid_Density_Const_E>
+      <Liquid_Density_Tmax>126.26</Liquid_Density_Tmax>
+      <Liquid_Density_Tmin>63.15</Liquid_Density_Tmin>
+      <Liquid_Heat_Capacity_Const_A>55135</Liquid_Heat_Capacity_Const_A>
+      <Liquid_Heat_Capacity_Const_B>217.45</Liquid_Heat_Capacity_Const_B>
+      <Liquid_Heat_Capacity_Const_C>-0.9071</Liquid_Heat_Capacity_Const_C>
+      <Liquid_Heat_Capacity_Const_D>0.05327</Liquid_Heat_Capacity_Const_D>
+      <Liquid_Heat_Capacity_Const_E>0.00024166</Liquid_Heat_Capacity_Const_E>
+      <Liquid_Heat_Capacity_Tmax>115</Liquid_Heat_Capacity_Tmax>
+      <Liquid_Heat_Capacity_Tmin>63.15</Liquid_Heat_Capacity_Tmin>
+      <Liquid_Thermal_Conductivity_Const_A>-0.21743</Liquid_Thermal_Conductivity_Const_A>
+      <Liquid_Thermal_Conductivity_Const_B>10.383</Liquid_Thermal_Conductivity_Const_B>
+      <Liquid_Thermal_Conductivity_Const_C>-1.0631</Liquid_Thermal_Conductivity_Const_C>
+      <Liquid_Thermal_Conductivity_Const_D>0.00036245</Liquid_Thermal_Conductivity_Const_D>
+      <Liquid_Thermal_Conductivity_Const_E>-2.3265E-05</Liquid_Thermal_Conductivity_Const_E>
+      <Liquid_Thermal_Conductivity_Tmax>124</Liquid_Thermal_Conductivity_Tmax>
+      <Liquid_Thermal_Conductivity_Tmin>60</Liquid_Thermal_Conductivity_Tmin>
+      <Liquid_Viscosity_Const_A>3.4358</Liquid_Viscosity_Const_A>
+      <Liquid_Viscosity_Const_B>-24.706</Liquid_Viscosity_Const_B>
+      <Liquid_Viscosity_Const_C>-2.6748</Liquid_Viscosity_Const_C>
+      <Liquid_Viscosity_Const_D>-4.1603E-05</Liquid_Viscosity_Const_D>
+      <Liquid_Viscosity_Const_E>2</Liquid_Viscosity_Const_E>
+      <LiquidDensityEquation>105</LiquidDensityEquation>
+      <LiquidHeatCapacityEquation>16</LiquidHeatCapacityEquation>
+      <LiquidThermalConductivityEquation>16</LiquidThermalConductivityEquation>
+      <LiquidViscosityEquation>101</LiquidViscosityEquation>
+      <Molar_Weight>28.0134</Molar_Weight>
+      <MolarVolume_k1i>0</MolarVolume_k1i>
+      <MolarVolume_k2i>0</MolarVolume_k2i>
+      <MolarVolume_k3i>0</MolarVolume_k3i>
+      <MolarVolume_v2i>0</MolarVolume_v2i>
+      <MolarVolume_v3i>0</MolarVolume_v3i>
+      <Name>Nitrogen</Name>
+      <NegativeIon></NegativeIon>
+      <NegativeIonStoichCoeff>0</NegativeIonStoichCoeff>
+      <Normal_Boiling_Point>77.35</Normal_Boiling_Point>
+      <OriginalDB>ChemSep</OriginalDB>
+      <PC_SAFT_epsilon_k>0</PC_SAFT_epsilon_k>
+      <PC_SAFT_m>0</PC_SAFT_m>
+      <PC_SAFT_sigma>0</PC_SAFT_sigma>
+      <PositiveIon></PositiveIon>
+      <PositiveIonStoichCoeff>0</PositiveIonStoichCoeff>
+      <PR_Volume_Translation_Coefficient>0</PR_Volume_Translation_Coefficient>
+      <SMILES>N#N</SMILES>
+      <Solid_Density_Const_A>37.87</Solid_Density_Const_A>
+      <Solid_Density_Const_B>-0.06027</Solid_Density_Const_B>
+      <Solid_Density_Const_C>0</Solid_Density_Const_C>
+      <Solid_Density_Const_D>0</Solid_Density_Const_D>
+      <Solid_Density_Const_E>0</Solid_Density_Const_E>
+      <Solid_Density_Tmax>63.15</Solid_Density_Tmax>
+      <Solid_Density_Tmin>20.65</Solid_Density_Tmin>
+      <Solid_Heat_Capacity_Const_A>383890</Solid_Heat_Capacity_Const_A>
+      <Solid_Heat_Capacity_Const_B>-28798</Solid_Heat_Capacity_Const_B>
+      <Solid_Heat_Capacity_Const_C>875.74</Solid_Heat_Capacity_Const_C>
+      <Solid_Heat_Capacity_Const_D>-11.589</Solid_Heat_Capacity_Const_D>
+      <Solid_Heat_Capacity_Const_E>0.057106</Solid_Heat_Capacity_Const_E>
+      <Solid_Heat_Capacity_Tmax>63</Solid_Heat_Capacity_Tmax>
+      <Solid_Heat_Capacity_Tmin>32.8</Solid_Heat_Capacity_Tmin>
+      <SolidDensityAtTs>0</SolidDensityAtTs>
+      <SolidDensityEquation>2</SolidDensityEquation>
+      <SolidHeatCapacityEquation>100</SolidHeatCapacityEquation>
+      <SolidTs>0</SolidTs>
+      <SRK_Volume_Translation_Coefficient>0</SRK_Volume_Translation_Coefficient>
+      <StandardStateMolarVolume>0</StandardStateMolarVolume>
+      <StoichSum>0</StoichSum>
+      <Surface_Tension_Const_A>-0.0025409</Surface_Tension_Const_A>
+      <Surface_Tension_Const_B>96.836</Surface_Tension_Const_B>
+      <Surface_Tension_Const_C>-7.6473</Surface_Tension_Const_C>
+      <Surface_Tension_Const_D>0.05313</Surface_Tension_Const_D>
+      <Surface_Tension_Const_E>-0.00036553</Surface_Tension_Const_E>
+      <Surface_Tension_Tmax>126.2</Surface_Tension_Tmax>
+      <Surface_Tension_Tmin>63.15</Surface_Tension_Tmin>
+      <SurfaceTensionEquation>16</SurfaceTensionEquation>
+      <TemperatureOfFusion>63.149</TemperatureOfFusion>
+      <UNIQUAC_Q>1.088</UNIQUAC_Q>
+      <UNIQUAC_R>1.0415</UNIQUAC_R>
+      <Vapor_Pressure_Constant_A>42.32946</Vapor_Pressure_Constant_A>
+      <Vapor_Pressure_Constant_B>-965.9771</Vapor_Pressure_Constant_B>
+      <Vapor_Pressure_Constant_C>-4.321774</Vapor_Pressure_Constant_C>
+      <Vapor_Pressure_Constant_D>7.97271E-05</Vapor_Pressure_Constant_D>
+      <Vapor_Pressure_Constant_E>2</Vapor_Pressure_Constant_E>
+      <Vapor_Pressure_TMAX>126.26</Vapor_Pressure_TMAX>
+      <Vapor_Pressure_TMIN>60.81</Vapor_Pressure_TMIN>
+      <Vapor_Thermal_Conductivity_Const_A>0.0003395</Vapor_Thermal_Conductivity_Const_A>
+      <Vapor_Thermal_Conductivity_Const_B>0.76921</Vapor_Thermal_Conductivity_Const_B>
+      <Vapor_Thermal_Conductivity_Const_C>19.592</Vapor_Thermal_Conductivity_Const_C>
+      <Vapor_Thermal_Conductivity_Const_D>293.93</Vapor_Thermal_Conductivity_Const_D>
+      <Vapor_Thermal_Conductivity_Const_E>0</Vapor_Thermal_Conductivity_Const_E>
+      <Vapor_Thermal_Conductivity_Tmax>2000</Vapor_Thermal_Conductivity_Tmax>
+      <Vapor_Thermal_Conductivity_Tmin>50</Vapor_Thermal_Conductivity_Tmin>
+      <Vapor_Viscosity_Const_A>4.6051E-07</Vapor_Viscosity_Const_A>
+      <Vapor_Viscosity_Const_B>0.65049</Vapor_Viscosity_Const_B>
+      <Vapor_Viscosity_Const_C>5.8019</Vapor_Viscosity_Const_C>
+      <Vapor_Viscosity_Const_D>2822.7</Vapor_Viscosity_Const_D>
+      <Vapor_Viscosity_Const_E>0</Vapor_Viscosity_Const_E>
+      <Vapor_Viscosity_Tmax>1970</Vapor_Viscosity_Tmax>
+      <Vapor_Viscosity_Tmin>63.15</Vapor_Viscosity_Tmin>
+      <VaporizationEnthalpyEquation>106</VaporizationEnthalpyEquation>
+      <VaporPressureEquation>101</VaporPressureEquation>
+      <VaporThermalConductivityEquation>102</VaporThermalConductivityEquation>
+      <VaporViscosityEquation>102</VaporViscosityEquation>
+      <Z_Rackett>0.2906</Z_Rackett>
+      <FullerDiffusionVolume>18.5</FullerDiffusionVolume>
+      <LennardJonesDiameter>3.710301E-10</LennardJonesDiameter>
+      <LennardJonesEnergy>94.45061</LennardJonesEnergy>
+      <Parachor>0.0107</Parachor>
+      <Tag></Tag>
+      <COSTALD_SRK_Acentric_Factor>0.0357998</COSTALD_SRK_Acentric_Factor>
+      <COSTALD_Characteristic_Volume>0.0901499</COSTALD_Characteristic_Volume>
+      <IsSolid>false</IsSolid>
+      <DynamicProperties />
+      <UNIFACGroups />
+      <MODFACGroups />
+      <NISTMODFACGroups />
+      <Elements>
+        <Item Name="N" Value="2" />
+      </Elements>
+    </Compound>
+    <Compound>
+      <Type>DWSIM.Thermodynamics.BaseClasses.ConstantProperties</Type>
+      <Acentric_Factor>0.256</Acentric_Factor>
+      <BO_BSW>0</BO_BSW>
+      <BO_GOR>0</BO_GOR>
+      <BO_OilVisc1>0</BO_OilVisc1>
+      <BO_OilVisc2>0</BO_OilVisc2>
+      <BO_OilViscTemp1>0</BO_OilViscTemp1>
+      <BO_OilViscTemp2>0</BO_OilViscTemp2>
+      <BO_PNA_A>0</BO_PNA_A>
+      <BO_PNA_N>0</BO_PNA_N>
+      <BO_PNA_P>0</BO_PNA_P>
+      <BO_SGG>0</BO_SGG>
+      <BO_SGO>0</BO_SGO>
+      <CAS_Number>7664-41-7</CAS_Number>
+      <Chao_Seader_Acentricity>0.2517</Chao_Seader_Acentricity>
+      <Chao_Seader_Liquid_Molar_Volume>24.9801</Chao_Seader_Liquid_Molar_Volume>
+      <Chao_Seader_Solubility_Parameter>0.0069802504654</Chao_Seader_Solubility_Parameter>
+      <Charge>0</Charge>
+      <ChemicalStructure></ChemicalStructure>
+      <Comments></Comments>
+      <CompCreatorStudyFile></CompCreatorStudyFile>
+      <Critical_Compressibility>0.255</Critical_Compressibility>
+      <Critical_Pressure>11353000</Critical_Pressure>
+      <Critical_Temperature>405.4</Critical_Temperature>
+      <Critical_Volume>0.07247</Critical_Volume>
+      <CurrentDB>ChemSep</CurrentDB>
+      <Dipole_Moment>4.9E-30</Dipole_Moment>
+      <Electrolyte_Cp0>0</Electrolyte_Cp0>
+      <Electrolyte_DelGF>0</Electrolyte_DelGF>
+      <Electrolyte_DelHF>0</Electrolyte_DelHF>
+      <EnthalpyOfFusionAtTf>5.657</EnthalpyOfFusionAtTf>
+      <Formula>NH3</Formula>
+      <HVap_A>24542000</HVap_A>
+      <HVap_B>-1.3178</HVap_B>
+      <HVap_C>4.7194</HVap_C>
+      <HVap_D>-5.4808</HVap_D>
+      <HVap_E>2.4196</HVap_E>
+      <HVap_TMAX>403.15</HVap_TMAX>
+      <HVap_TMIN>195.41</HVap_TMIN>
+      <HydrationNumber>0</HydrationNumber>
+      <ID>1911</ID>
+      <Ideal_Gas_Heat_Capacity_Const_A>33239</Ideal_Gas_Heat_Capacity_Const_A>
+      <Ideal_Gas_Heat_Capacity_Const_B>-913.64</Ideal_Gas_Heat_Capacity_Const_B>
+      <Ideal_Gas_Heat_Capacity_Const_C>10.802</Ideal_Gas_Heat_Capacity_Const_C>
+      <Ideal_Gas_Heat_Capacity_Const_D>0.00021047</Ideal_Gas_Heat_Capacity_Const_D>
+      <Ideal_Gas_Heat_Capacity_Const_E>-4.1739E-08</Ideal_Gas_Heat_Capacity_Const_E>
+      <IdealgasCpEquation>16</IdealgasCpEquation>
+      <IG_Enthalpy_of_Formation_25C>-2695.04395637949</IG_Enthalpy_of_Formation_25C>
+      <IG_Entropy_of_Formation_25C>-5.80938085215286</IG_Entropy_of_Formation_25C>
+      <IG_Gibbs_Energy_of_Formation_25C>-962.977055310114</IG_Gibbs_Energy_of_Formation_25C>
+      <InChI></InChI>
+      <Ion_CpAq_a>0</Ion_CpAq_a>
+      <Ion_CpAq_b>0</Ion_CpAq_b>
+      <Ion_CpAq_c>0</Ion_CpAq_c>
+      <IsBlackOil>false</IsBlackOil>
+      <IsCOOLPROPSupported>true</IsCOOLPROPSupported>
+      <IsFPROPSSupported>false</IsFPROPSSupported>
+      <IsHydratedSalt>false</IsHydratedSalt>
+      <IsHYPO>0</IsHYPO>
+      <IsIon>false</IsIon>
+      <IsModified>false</IsModified>
+      <IsPF>0</IsPF>
+      <IsSalt>false</IsSalt>
+      <Liquid_Density_Const_A>4.0518</Liquid_Density_Const_A>
+      <Liquid_Density_Const_B>0.27129</Liquid_Density_Const_B>
+      <Liquid_Density_Const_C>405.4</Liquid_Density_Const_C>
+      <Liquid_Density_Const_D>0.31349</Liquid_Density_Const_D>
+      <Liquid_Density_Const_E>0</Liquid_Density_Const_E>
+      <Liquid_Density_Tmax>405.15</Liquid_Density_Tmax>
+      <Liquid_Density_Tmin>195</Liquid_Density_Tmin>
+      <Liquid_Heat_Capacity_Const_A>77659</Liquid_Heat_Capacity_Const_A>
+      <Liquid_Heat_Capacity_Const_B>-45330</Liquid_Heat_Capacity_Const_B>
+      <Liquid_Heat_Capacity_Const_C>445.74</Liquid_Heat_Capacity_Const_C>
+      <Liquid_Heat_Capacity_Const_D>-1.4197</Liquid_Heat_Capacity_Const_D>
+      <Liquid_Heat_Capacity_Const_E>0.0015508</Liquid_Heat_Capacity_Const_E>
+      <Liquid_Heat_Capacity_Tmax>401.15</Liquid_Heat_Capacity_Tmax>
+      <Liquid_Heat_Capacity_Tmin>195.45</Liquid_Heat_Capacity_Tmin>
+      <Liquid_Thermal_Conductivity_Const_A>-0.95309</Liquid_Thermal_Conductivity_Const_A>
+      <Liquid_Thermal_Conductivity_Const_B>14.684</Liquid_Thermal_Conductivity_Const_B>
+      <Liquid_Thermal_Conductivity_Const_C>0.56768</Liquid_Thermal_Conductivity_Const_C>
+      <Liquid_Thermal_Conductivity_Const_D>-0.00028968</Liquid_Thermal_Conductivity_Const_D>
+      <Liquid_Thermal_Conductivity_Const_E>-1.9238E-06</Liquid_Thermal_Conductivity_Const_E>
+      <Liquid_Thermal_Conductivity_Tmax>400.05</Liquid_Thermal_Conductivity_Tmax>
+      <Liquid_Thermal_Conductivity_Tmin>195.41</Liquid_Thermal_Conductivity_Tmin>
+      <Liquid_Viscosity_Const_A>-39.742</Liquid_Viscosity_Const_A>
+      <Liquid_Viscosity_Const_B>1486.5</Liquid_Viscosity_Const_B>
+      <Liquid_Viscosity_Const_C>4.7749</Liquid_Viscosity_Const_C>
+      <Liquid_Viscosity_Const_D>-1.5796E-05</Liquid_Viscosity_Const_D>
+      <Liquid_Viscosity_Const_E>2</Liquid_Viscosity_Const_E>
+      <LiquidDensityEquation>105</LiquidDensityEquation>
+      <LiquidHeatCapacityEquation>16</LiquidHeatCapacityEquation>
+      <LiquidThermalConductivityEquation>16</LiquidThermalConductivityEquation>
+      <LiquidViscosityEquation>101</LiquidViscosityEquation>
+      <Molar_Weight>17.03052</Molar_Weight>
+      <MolarVolume_k1i>0</MolarVolume_k1i>
+      <MolarVolume_k2i>0</MolarVolume_k2i>
+      <MolarVolume_k3i>0</MolarVolume_k3i>
+      <MolarVolume_v2i>0</MolarVolume_v2i>
+      <MolarVolume_v3i>0</MolarVolume_v3i>
+      <Name>Ammonia</Name>
+      <NegativeIon></NegativeIon>
+      <NegativeIonStoichCoeff>0</NegativeIonStoichCoeff>
+      <Normal_Boiling_Point>239.82</Normal_Boiling_Point>
+      <OriginalDB>ChemSep</OriginalDB>
+      <PC_SAFT_epsilon_k>0</PC_SAFT_epsilon_k>
+      <PC_SAFT_m>0</PC_SAFT_m>
+      <PC_SAFT_sigma>0</PC_SAFT_sigma>
+      <PositiveIon></PositiveIon>
+      <PositiveIonStoichCoeff>0</PositiveIonStoichCoeff>
+      <PR_Volume_Translation_Coefficient>0</PR_Volume_Translation_Coefficient>
+      <SMILES>N</SMILES>
+      <Solid_Density_Const_A>47.973</Solid_Density_Const_A>
+      <Solid_Density_Const_B>-1.0295E-08</Solid_Density_Const_B>
+      <Solid_Density_Const_C>0</Solid_Density_Const_C>
+      <Solid_Density_Const_D>0</Solid_Density_Const_D>
+      <Solid_Density_Const_E>0</Solid_Density_Const_E>
+      <Solid_Density_Tmax>203.65</Solid_Density_Tmax>
+      <Solid_Density_Tmin>194.15</Solid_Density_Tmin>
+      <Solid_Heat_Capacity_Const_A>-5983.8</Solid_Heat_Capacity_Const_A>
+      <Solid_Heat_Capacity_Const_B>380.66</Solid_Heat_Capacity_Const_B>
+      <Solid_Heat_Capacity_Const_C>-0.59542</Solid_Heat_Capacity_Const_C>
+      <Solid_Heat_Capacity_Const_D>-0.00029099</Solid_Heat_Capacity_Const_D>
+      <Solid_Heat_Capacity_Const_E>4.9048E-06</Solid_Heat_Capacity_Const_E>
+      <Solid_Heat_Capacity_Tmax>190</Solid_Heat_Capacity_Tmax>
+      <Solid_Heat_Capacity_Tmin>20</Solid_Heat_Capacity_Tmin>
+      <SolidDensityAtTs>0</SolidDensityAtTs>
+      <SolidDensityEquation>2</SolidDensityEquation>
+      <SolidHeatCapacityEquation>100</SolidHeatCapacityEquation>
+      <SolidTs>0</SolidTs>
+      <SRK_Volume_Translation_Coefficient>0</SRK_Volume_Translation_Coefficient>
+      <StandardStateMolarVolume>0</StandardStateMolarVolume>
+      <StoichSum>0</StoichSum>
+      <Surface_Tension_Const_A>-0.01195</Surface_Tension_Const_A>
+      <Surface_Tension_Const_B>209.99</Surface_Tension_Const_B>
+      <Surface_Tension_Const_C>-5.1813</Surface_Tension_Const_C>
+      <Surface_Tension_Const_D>0.011762</Surface_Tension_Const_D>
+      <Surface_Tension_Const_E>-2.7715E-05</Surface_Tension_Const_E>
+      <Surface_Tension_Tmax>405.55</Surface_Tension_Tmax>
+      <Surface_Tension_Tmin>195.41</Surface_Tension_Tmin>
+      <SurfaceTensionEquation>16</SurfaceTensionEquation>
+      <TemperatureOfFusion>195.41</TemperatureOfFusion>
+      <UNIQUAC_Q>0.98</UNIQUAC_Q>
+      <UNIQUAC_R>0.9097</UNIQUAC_R>
+      <Vapor_Pressure_Constant_A>62.8849</Vapor_Pressure_Constant_A>
+      <Vapor_Pressure_Constant_B>-4136.862</Vapor_Pressure_Constant_B>
+      <Vapor_Pressure_Constant_C>-6.320663</Vapor_Pressure_Constant_C>
+      <Vapor_Pressure_Constant_D>9.203947E-06</Vapor_Pressure_Constant_D>
+      <Vapor_Pressure_Constant_E>2</Vapor_Pressure_Constant_E>
+      <Vapor_Pressure_TMAX>406.05</Vapor_Pressure_TMAX>
+      <Vapor_Pressure_TMIN>191.24</Vapor_Pressure_TMIN>
+      <Vapor_Thermal_Conductivity_Const_A>1.6165E-05</Vapor_Thermal_Conductivity_Const_A>
+      <Vapor_Thermal_Conductivity_Const_B>1.3146</Vapor_Thermal_Conductivity_Const_B>
+      <Vapor_Thermal_Conductivity_Const_C>75.168</Vapor_Thermal_Conductivity_Const_C>
+      <Vapor_Thermal_Conductivity_Const_D>-8202.1</Vapor_Thermal_Conductivity_Const_D>
+      <Vapor_Thermal_Conductivity_Const_E>0</Vapor_Thermal_Conductivity_Const_E>
+      <Vapor_Thermal_Conductivity_Tmax>900</Vapor_Thermal_Conductivity_Tmax>
+      <Vapor_Thermal_Conductivity_Tmin>200</Vapor_Thermal_Conductivity_Tmin>
+      <Vapor_Viscosity_Const_A>4.59E-08</Vapor_Viscosity_Const_A>
+      <Vapor_Viscosity_Const_B>0.96936</Vapor_Viscosity_Const_B>
+      <Vapor_Viscosity_Const_C>48.366</Vapor_Viscosity_Const_C>
+      <Vapor_Viscosity_Const_D>-2671.4</Vapor_Viscosity_Const_D>
+      <Vapor_Viscosity_Const_E>0</Vapor_Viscosity_Const_E>
+      <Vapor_Viscosity_Tmax>1000</Vapor_Viscosity_Tmax>
+      <Vapor_Viscosity_Tmin>194.6</Vapor_Viscosity_Tmin>
+      <VaporizationEnthalpyEquation>106</VaporizationEnthalpyEquation>
+      <VaporPressureEquation>101</VaporPressureEquation>
+      <VaporThermalConductivityEquation>102</VaporThermalConductivityEquation>
+      <VaporViscosityEquation>102</VaporViscosityEquation>
+      <Z_Rackett>0</Z_Rackett>
+      <FullerDiffusionVolume>20.7</FullerDiffusionVolume>
+      <LennardJonesDiameter>3.15E-10</LennardJonesDiameter>
+      <LennardJonesEnergy>358</LennardJonesEnergy>
+      <Parachor>0.0108</Parachor>
+      <Tag></Tag>
+      <COSTALD_SRK_Acentric_Factor>0.26199</COSTALD_SRK_Acentric_Factor>
+      <COSTALD_Characteristic_Volume>0.07011</COSTALD_Characteristic_Volume>
+      <IsSolid>false</IsSolid>
+      <DynamicProperties />
+      <UNIFACGroups />
+      <MODFACGroups />
+      <NISTMODFACGroups />
+      <Elements>
+        <Item Name="H" Value="3" />
+        <Item Name="N" Value="1" />
+      </Elements>
+    </Compound>
+  </Compounds>
+  <ReactionSets>
+    <ReactionSet>
+      <ID>DefaultSet</ID>
+      <Name>Default Set</Name>
+      <Description>Default Reaction Set</Description>
+      <Reactions>
+        <Reaction Key="c3b90772-8e70-47a0-ba05-1b187a1016eb" ReactionID="c3b90772-8e70-47a0-ba05-1b187a1016eb" Rank="0" IsActive="true" />
+      </Reactions>
+    </ReactionSet>
+  </ReactionSets>
+  <Reactions>
+    <Reaction>
+      <Type>DWSIM.Thermodynamics.BaseClasses.Reaction</Type>
+      <BaseReactant>Nitrogen</BaseReactant>
+      <Description></Description>
+      <Equation>3H2 + N2 &lt;--&gt; 2NH3 </Equation>
+      <ID>c3b90772-8e70-47a0-ba05-1b187a1016eb</ID>
+      <Name></Name>
+      <ReactionBasis>PartialPress</ReactionBasis>
+      <ReactionHeat>-91796</ReactionHeat>
+      <ReactionHeatCO>0</ReactionHeatCO>
+      <ReactionPhase>Vapor</ReactionPhase>
+      <ReactionType>Kinetic</ReactionType>
+      <StoichBalance>0</StoichBalance>
+      <A_Forward>0.004</A_Forward>
+      <A_Reverse>0</A_Reverse>
+      <Approach>0</Approach>
+      <ConcUnit>Pa</ConcUnit>
+      <ConstantKeqValue>0</ConstantKeqValue>
+      <E_Forward>35</E_Forward>
+      <E_Reverse>0</E_Reverse>
+      <Expression></Expression>
+      <KExprType>Gibbs</KExprType>
+      <Kvalue>0</Kvalue>
+      <Rate>0</Rate>
+      <RateEquationDenominator></RateEquationDenominator>
+      <RateEquationNumerator></RateEquationNumerator>
+      <ReactionGibbsEnergy>-32800</ReactionGibbsEnergy>
+      <Tmax>2000</Tmax>
+      <Tmin>0</Tmin>
+      <VelUnit>kmol/[m3.h]</VelUnit>
+      <ReactionKinFwdType>Arrhenius</ReactionKinFwdType>
+      <ReactionKinRevType>Arrhenius</ReactionKinRevType>
+      <ReactionKinFwdExpression></ReactionKinFwdExpression>
+      <ReactionKinRevExpression></ReactionKinRevExpression>
+      <E_Forward_Unit>J/mol</E_Forward_Unit>
+      <E_Reverse_Unit>J/mol</E_Reverse_Unit>
+      <ReactionKinetics>Expression</ReactionKinetics>
+      <ScriptTitle></ScriptTitle>
+      <EquilibriumReactionBasisUnits>Pa</EquilibriumReactionBasisUnits>
+      <Compounds>
+        <Compound Name="Hydrogen" StoichCoeff="-3" DirectOrder="0" ReverseOrder="0" IsBaseReactant="false" />
+        <Compound Name="Nitrogen" StoichCoeff="-1" DirectOrder="1" ReverseOrder="0" IsBaseReactant="true" />
+        <Compound Name="Ammonia" StoichCoeff="2" DirectOrder="0" ReverseOrder="0" IsBaseReactant="false" />
+      </Compounds>
+    </Reaction>
+  </Reactions>
+  <StoredSolutions />
+  <DynamicsManager>
+    <Type>DWSIM.DynamicsManager.Manager</Type>
+    <Description></Description>
+    <CurrentSchedule></CurrentSchedule>
+    <ScheduleList />
+    <EventSetList />
+    <IntegratorList />
+  </DynamicsManager>
+  <OptimizationCases>
+    <OptimizationCase>
+      <Type>DWSIM.SharedClasses.Flowsheet.Optimization.OptimizationCase</Type>
+      <name>optcase0</name>
+      <description></description>
+      <stats></stats>
+      <solvm>AL_BRENT</solvm>
+      <maxits>100</maxits>
+      <tolerance>1E-06</tolerance>
+      <epsX>0.001</epsX>
+      <epsF>0.001</epsF>
+      <epsG>0.001</epsG>
+      <epsilon>0.001</epsilon>
+      <barriermultiplier>0.0001</barriermultiplier>
+      <numdevscheme>2</numdevscheme>
+      <boundvariables>false</boundvariables>
+      <objfunctype>Variable</objfunctype>
+      <type>Minimization</type>
+      <expression></expression>
+      <Variables />
+    </OptimizationCase>
+  </OptimizationCases>
+  <SensitivityAnalysis>
+    <SensitivityAnalysisCase>
+      <Type>DWSIM.SharedClasses.Flowsheet.Optimization.SensitivityAnalysisCase</Type>
+      <iv1>
+        <Type>DWSIM.SharedClasses.Flowsheet.Optimization.SAVariable</Type>
+        <objectID></objectID>
+        <objectTAG></objectTAG>
+        <propID></propID>
+        <unit></unit>
+        <points>5</points>
+        <name></name>
+        <id></id>
+        <currentvalue>0</currentvalue>
+      </iv1>
+      <iv2>
+        <Type>DWSIM.SharedClasses.Flowsheet.Optimization.SAVariable</Type>
+        <objectID></objectID>
+        <objectTAG></objectTAG>
+        <propID></propID>
+        <unit></unit>
+        <points>5</points>
+        <name></name>
+        <id></id>
+        <currentvalue>0</currentvalue>
+      </iv2>
+      <dv>
+        <Type>DWSIM.SharedClasses.Flowsheet.Optimization.SAVariable</Type>
+        <objectID></objectID>
+        <objectTAG></objectTAG>
+        <propID></propID>
+        <unit></unit>
+        <points>5</points>
+        <name></name>
+        <id></id>
+        <currentvalue>0</currentvalue>
+      </dv>
+      <name>SACase0</name>
+      <description></description>
+      <stats></stats>
+      <numvar>1</numvar>
+      <depvartype>Variable</depvartype>
+      <expression></expression>
+      <IV1>
+        <Type>DWSIM.SharedClasses.Flowsheet.Optimization.SAVariable</Type>
+        <objectID></objectID>
+        <objectTAG></objectTAG>
+        <propID></propID>
+        <unit></unit>
+        <points>5</points>
+        <name></name>
+        <id></id>
+        <currentvalue>0</currentvalue>
+      </IV1>
+      <IV2>
+        <Type>DWSIM.SharedClasses.Flowsheet.Optimization.SAVariable</Type>
+        <objectID></objectID>
+        <objectTAG></objectTAG>
+        <propID></propID>
+        <unit></unit>
+        <points>5</points>
+        <name></name>
+        <id></id>
+        <currentvalue>0</currentvalue>
+      </IV2>
+      <DV>
+        <Type>DWSIM.SharedClasses.Flowsheet.Optimization.SAVariable</Type>
+        <objectID></objectID>
+        <objectTAG></objectTAG>
+        <propID></propID>
+        <unit></unit>
+        <points>5</points>
+        <name></name>
+        <id></id>
+        <currentvalue>0</currentvalue>
+      </DV>
+      <Variables />
+      <DepVariables />
+    </SensitivityAnalysisCase>
+  </SensitivityAnalysis>
+  <PetroleumAssays />
+  <WatchItems />
+  <ScriptItems />
+  <ChartItems />
+  <Spreadsheet>
+    <RGFData>{"MAIN":"{\"?xml\":{\"@version\":\"1.0\"},\"grid\":{\"@xmlns:xsd\":\"http://www.w3.org/2001/XMLSchema\",\"@xmlns:xsi\":\"http://www.w3.org/2001/XMLSchema-instance\",\"head\":{\"meta\":{\"culture\":\"en-IN\",\"editor\":\"ReoGrid Core\",\"core-ver\":\"2.1.0.0\"},\"rows\":\"65536\",\"cols\":\"100\",\"default-row-height\":\"20\",\"default-col-width\":\"70\",\"settings\":{\"@meta\":\"30475026398\"},\"script\":null},\"style\":{\"@font\":\"Arial\",\"@font-size\":\"10\",\"@align\":\"general\",\"@valign\":\"middle\"},\"rows\":null,\"cols\":null,\"v-borders\":null,\"h-borders\":null,\"cells\":null}}"}</RGFData>
+  </Spreadsheet>
+  <PanelLayout>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;!--DockPanel configuration file. Author: Weifen Luo, all rights reserved.--&gt;
+&lt;!--!!! AUTOMATICALLY GENERATED FILE. DO NOT MODIFY !!!--&gt;
+&lt;DockPanel FormatVersion="1.0" DockLeftPortion="562.5" DockRightPortion="0.203007518796992" DockTopPortion="0.25" DockBottomPortion="0.252227705943669" ActiveDocumentPane="0" ActivePane="0"&gt;
+  &lt;Contents Count="17"&gt;
+    &lt;Content ID="0" PersistString="DWSIM.LogPanel" AutoHidePortion="0.252227705943669" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="1" PersistString="DWSIM.MaterialStreamPanel" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="2" PersistString="DWSIM.WatchPanel" AutoHidePortion="0.252227705943669" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="3" PersistString="DWSIM.frmProps" AutoHidePortion="379" IsHidden="True" IsFloat="False" /&gt;
+    &lt;Content ID="4" PersistString="DWSIM.FormCharts" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="5" PersistString="DWSIM.FormDynamicsManager" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="6" PersistString="DWSIM.FormDynamicsIntegratorControl" AutoHidePortion="0.369804903093313" IsHidden="True" IsFloat="False" /&gt;
+    &lt;Content ID="7" PersistString="DWSIM.FormFileExplorer" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="8" PersistString="DWSIM.FormInteractiveIronPythonConsole" AutoHidePortion="0.203007518796992" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="9" PersistString="DWSIM.FlowsheetSurface_SkiaSharp" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="10" PersistString="DWSIM.FormNewSpreadsheet" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="11" PersistString="DWSIM.FormScript" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="12" PersistString="DWSIM.Thermodynamics.MaterialStreamEditor" AutoHidePortion="562.5" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="13" PersistString="DWSIM.FormSimulSettings" AutoHidePortion="0.25" IsHidden="True" IsFloat="True" /&gt;
+    &lt;Content ID="14" PersistString="DWSIM.UnitOperations.EditingForm_ReactorPFR" AutoHidePortion="562.5" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="15" PersistString="DWSIM.Thermodynamics.MaterialStreamEditor" AutoHidePortion="562.5" IsHidden="False" IsFloat="False" /&gt;
+    &lt;Content ID="16" PersistString="DWSIM.UnitOperations.EditingForm_EnergyStream" AutoHidePortion="562.5" IsHidden="False" IsFloat="False" /&gt;
+  &lt;/Contents&gt;
+  &lt;Panes Count="8"&gt;
+    &lt;Pane ID="0" DockState="Document" ActiveContent="9"&gt;
+      &lt;Contents Count="7"&gt;
+        &lt;Content ID="0" RefID="7" /&gt;
+        &lt;Content ID="1" RefID="9" /&gt;
+        &lt;Content ID="2" RefID="5" /&gt;
+        &lt;Content ID="3" RefID="1" /&gt;
+        &lt;Content ID="4" RefID="10" /&gt;
+        &lt;Content ID="5" RefID="4" /&gt;
+        &lt;Content ID="6" RefID="11" /&gt;
+      &lt;/Contents&gt;
+    &lt;/Pane&gt;
+    &lt;Pane ID="1" DockState="DockBottom" ActiveContent="0"&gt;
+      &lt;Contents Count="1"&gt;
+        &lt;Content ID="0" RefID="0" /&gt;
+      &lt;/Contents&gt;
+    &lt;/Pane&gt;
+    &lt;Pane ID="2" DockState="DockBottom" ActiveContent="2"&gt;
+      &lt;Contents Count="1"&gt;
+        &lt;Content ID="0" RefID="2" /&gt;
+      &lt;/Contents&gt;
+    &lt;/Pane&gt;
+    &lt;Pane ID="3" DockState="DockLeft" ActiveContent="16"&gt;
+      &lt;Contents Count="5"&gt;
+        &lt;Content ID="0" RefID="3" /&gt;
+        &lt;Content ID="1" RefID="12" /&gt;
+        &lt;Content ID="2" RefID="14" /&gt;
+        &lt;Content ID="3" RefID="15" /&gt;
+        &lt;Content ID="4" RefID="16" /&gt;
+      &lt;/Contents&gt;
+    &lt;/Pane&gt;
+    &lt;Pane ID="4" DockState="Float" ActiveContent="-1"&gt;
+      &lt;Contents Count="1"&gt;
+        &lt;Content ID="0" RefID="6" /&gt;
+      &lt;/Contents&gt;
+    &lt;/Pane&gt;
+    &lt;Pane ID="5" DockState="DockBottom" ActiveContent="-1"&gt;
+      &lt;Contents Count="1"&gt;
+        &lt;Content ID="0" RefID="6" /&gt;
+      &lt;/Contents&gt;
+    &lt;/Pane&gt;
+    &lt;Pane ID="6" DockState="DockRightAutoHide" ActiveContent="8"&gt;
+      &lt;Contents Count="1"&gt;
+        &lt;Content ID="0" RefID="8" /&gt;
+      &lt;/Contents&gt;
+    &lt;/Pane&gt;
+    &lt;Pane ID="7" DockState="Float" ActiveContent="-1"&gt;
+      &lt;Contents Count="1"&gt;
+        &lt;Content ID="0" RefID="13" /&gt;
+      &lt;/Contents&gt;
+    &lt;/Pane&gt;
+  &lt;/Panes&gt;
+  &lt;DockWindows&gt;
+    &lt;DockWindow ID="0" DockState="Document" ZOrderIndex="1"&gt;
+      &lt;NestedPanes Count="1"&gt;
+        &lt;Pane ID="0" RefID="0" PrevPane="-1" Alignment="Right" Proportion="0.5" /&gt;
+      &lt;/NestedPanes&gt;
+    &lt;/DockWindow&gt;
+    &lt;DockWindow ID="1" DockState="DockLeft" ZOrderIndex="3"&gt;
+      &lt;NestedPanes Count="1"&gt;
+        &lt;Pane ID="0" RefID="3" PrevPane="-1" Alignment="Bottom" Proportion="0.5" /&gt;
+      &lt;/NestedPanes&gt;
+    &lt;/DockWindow&gt;
+    &lt;DockWindow ID="2" DockState="DockRight" ZOrderIndex="4"&gt;
+      &lt;NestedPanes Count="1"&gt;
+        &lt;Pane ID="0" RefID="6" PrevPane="-1" Alignment="Bottom" Proportion="0.5" /&gt;
+      &lt;/NestedPanes&gt;
+    &lt;/DockWindow&gt;
+    &lt;DockWindow ID="3" DockState="DockTop" ZOrderIndex="5"&gt;
+      &lt;NestedPanes Count="0" /&gt;
+    &lt;/DockWindow&gt;
+    &lt;DockWindow ID="4" DockState="DockBottom" ZOrderIndex="2"&gt;
+      &lt;NestedPanes Count="3"&gt;
+        &lt;Pane ID="0" RefID="1" PrevPane="-1" Alignment="Right" Proportion="0.5" /&gt;
+        &lt;Pane ID="1" RefID="5" PrevPane="1" Alignment="Top" Proportion="0.5" /&gt;
+        &lt;Pane ID="2" RefID="2" PrevPane="1" Alignment="Right" Proportion="0.261838440111421" /&gt;
+      &lt;/NestedPanes&gt;
+    &lt;/DockWindow&gt;
+  &lt;/DockWindows&gt;
+  &lt;FloatWindows Count="2"&gt;
+    &lt;FloatWindow ID="0" Bounds="336, 370, 900, 155" ZOrderIndex="0"&gt;
+      &lt;NestedPanes Count="1"&gt;
+        &lt;Pane ID="0" RefID="4" PrevPane="-1" Alignment="Right" Proportion="0.5" /&gt;
+      &lt;/NestedPanes&gt;
+    &lt;/FloatWindow&gt;
+    &lt;FloatWindow ID="1" Bounds="160, 160, 1125, 750" ZOrderIndex="1"&gt;
+      &lt;NestedPanes Count="1"&gt;
+        &lt;Pane ID="0" RefID="7" PrevPane="-1" Alignment="Right" Proportion="0.5" /&gt;
+      &lt;/NestedPanes&gt;
+    &lt;/FloatWindow&gt;
+  &lt;/FloatWindows&gt;
+&lt;/DockPanel&gt;</PanelLayout>
+</DWSIM_Simulation_Data>
